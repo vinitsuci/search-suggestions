@@ -6,7 +6,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/run.js",
-    "dev": "ts-node src/run.ts"
+    "dev": "ts-node src/run.ts --serve",
+    "generate": "ts-node src/run.ts --generate",
+    "sync": "ts-node src/run.ts --sync"
   },
   "keywords": ["typesense", "search", "suggestions"],
   "author": "",

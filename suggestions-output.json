@@ -1,0 +1,7610 @@
+[
+  {
+    "term": "Bangle",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Bangle"
+  },
+  {
+    "term": "Bracelets",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Bracelets"
+  },
+  {
+    "term": "Brooch",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Brooch"
+  },
+  {
+    "term": "Chains",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Chains"
+  },
+  {
+    "term": "Choker",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Choker"
+  },
+  {
+    "term": "Earrings",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Earrings"
+  },
+  {
+    "term": "Necklaces",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Necklaces"
+  },
+  {
+    "term": "Nose Pin",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Nose Pin"
+  },
+  {
+    "term": "Pendants",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Pendants"
+  },
+  {
+    "term": "Rings",
+    "type": "category",
+    "boost": 10,
+    "target": "category:Rings"
+  },
+  {
+    "term": "Baby Shower Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Baby Shower,category:Bangle"
+  },
+  {
+    "term": "Baby Shower Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Baby Shower,category:Bracelets"
+  },
+  {
+    "term": "Baby Shower Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Baby Shower,category:Earrings"
+  },
+  {
+    "term": "Baby Shower Nose Pin",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Baby Shower,category:Nose Pin"
+  },
+  {
+    "term": "Baby Shower Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Baby Shower,category:Pendants"
+  },
+  {
+    "term": "Baby Shower Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Baby Shower,category:Rings"
+  },
+  {
+    "term": "Brunch Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Brunch,category:Bangle"
+  },
+  {
+    "term": "Brunch Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Brunch,category:Earrings"
+  },
+  {
+    "term": "Brunch Nose Pin",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Brunch,category:Nose Pin"
+  },
+  {
+    "term": "Brunch Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Brunch,category:Rings"
+  },
+  {
+    "term": "Christmas Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Christmas,category:Bangle"
+  },
+  {
+    "term": "Christmas Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Christmas,category:Brooch"
+  },
+  {
+    "term": "Christmas Chains",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Christmas,category:Chains"
+  },
+  {
+    "term": "Christmas Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Christmas,category:Earrings"
+  },
+  {
+    "term": "Christmas Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Christmas,category:Necklaces"
+  },
+  {
+    "term": "Christmas Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Christmas,category:Rings"
+  },
+  {
+    "term": "Cocktail Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Cocktail,category:Bracelets"
+  },
+  {
+    "term": "Cocktail Chains",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Cocktail,category:Chains"
+  },
+  {
+    "term": "Cocktail Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Cocktail,category:Earrings"
+  },
+  {
+    "term": "Cocktail Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Cocktail,category:Necklaces"
+  },
+  {
+    "term": "Cocktail Nose Pin",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Cocktail,category:Nose Pin"
+  },
+  {
+    "term": "Cocktail Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Cocktail,category:Pendants"
+  },
+  {
+    "term": "Cocktail Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Cocktail,category:Rings"
+  },
+  {
+    "term": "Date Night Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Date Night,category:Bangle"
+  },
+  {
+    "term": "Date Night Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Date Night,category:Brooch"
+  },
+  {
+    "term": "Date Night Chains",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Date Night,category:Chains"
+  },
+  {
+    "term": "Date Night Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Date Night,category:Earrings"
+  },
+  {
+    "term": "Date Night Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Date Night,category:Necklaces"
+  },
+  {
+    "term": "Date Night Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Date Night,category:Pendants"
+  },
+  {
+    "term": "Date Night Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Date Night,category:Rings"
+  },
+  {
+    "term": "Dhanteras/Akshay Trithiya Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Dhanteras/Akshay Trithiya,category:Bangle"
+  },
+  {
+    "term": "Dhanteras/Akshay Trithiya Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Dhanteras/Akshay Trithiya,category:Bracelets"
+  },
+  {
+    "term": "Dhanteras/Akshay Trithiya Choker",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Dhanteras/Akshay Trithiya,category:Choker"
+  },
+  {
+    "term": "Dhanteras/Akshay Trithiya Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Dhanteras/Akshay Trithiya,category:Necklaces"
+  },
+  {
+    "term": "Dhanteras/Akshay Trithiya Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Dhanteras/Akshay Trithiya,category:Rings"
+  },
+  {
+    "term": "Diwali/Dushera/Durga Puja Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Diwali/Dushera/Durga Puja,category:Bangle"
+  },
+  {
+    "term": "Diwali/Dushera/Durga Puja Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Diwali/Dushera/Durga Puja,category:Brooch"
+  },
+  {
+    "term": "Diwali/Dushera/Durga Puja Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Diwali/Dushera/Durga Puja,category:Earrings"
+  },
+  {
+    "term": "Diwali/Dushera/Durga Puja Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Diwali/Dushera/Durga Puja,category:Necklaces"
+  },
+  {
+    "term": "Diwali/Dushera/Durga Puja Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Diwali/Dushera/Durga Puja,category:Rings"
+  },
+  {
+    "term": "Friend's Bachelorette Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Friend's Bachelorette,category:Bangle"
+  },
+  {
+    "term": "Friend's Bachelorette Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Friend's Bachelorette,category:Earrings"
+  },
+  {
+    "term": "Friend's Bachelorette Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Friend's Bachelorette,category:Necklaces"
+  },
+  {
+    "term": "Friend's Bachelorette Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Friend's Bachelorette,category:Rings"
+  },
+  {
+    "term": "Haldi Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Haldi,category:Bangle"
+  },
+  {
+    "term": "Haldi Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Haldi,category:Bracelets"
+  },
+  {
+    "term": "Haldi Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Haldi,category:Earrings"
+  },
+  {
+    "term": "Haldi Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Haldi,category:Necklaces"
+  },
+  {
+    "term": "Haldi Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Haldi,category:Rings"
+  },
+  {
+    "term": "Hen Party Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Hen Party,category:Bangle"
+  },
+  {
+    "term": "Hen Party Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Hen Party,category:Earrings"
+  },
+  {
+    "term": "Hen Party Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Hen Party,category:Rings"
+  },
+  {
+    "term": "Holi Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Holi,category:Bangle"
+  },
+  {
+    "term": "Holi Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Holi,category:Earrings"
+  },
+  {
+    "term": "Holi Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Holi,category:Pendants"
+  },
+  {
+    "term": "Holi Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Holi,category:Rings"
+  },
+  {
+    "term": "Karwa Chauth/Teej Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Karwa Chauth/Teej,category:Bangle"
+  },
+  {
+    "term": "Karwa Chauth/Teej Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Karwa Chauth/Teej,category:Bracelets"
+  },
+  {
+    "term": "Karwa Chauth/Teej Choker",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Karwa Chauth/Teej,category:Choker"
+  },
+  {
+    "term": "Karwa Chauth/Teej Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Karwa Chauth/Teej,category:Necklaces"
+  },
+  {
+    "term": "Karwa Chauth/Teej Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Karwa Chauth/Teej,category:Rings"
+  },
+  {
+    "term": "Love anniversary Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Love anniversary,category:Bracelets"
+  },
+  {
+    "term": "Love anniversary Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Love anniversary,category:Brooch"
+  },
+  {
+    "term": "Love anniversary Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Love anniversary,category:Earrings"
+  },
+  {
+    "term": "Love anniversary Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Love anniversary,category:Necklaces"
+  },
+  {
+    "term": "Love anniversary Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Love anniversary,category:Rings"
+  },
+  {
+    "term": "Marriage anniversary Chains",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Marriage anniversary,category:Chains"
+  },
+  {
+    "term": "Marriage anniversary Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Marriage anniversary,category:Earrings"
+  },
+  {
+    "term": "Marriage anniversary Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Marriage anniversary,category:Necklaces"
+  },
+  {
+    "term": "Marriage anniversary Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Marriage anniversary,category:Pendants"
+  },
+  {
+    "term": "Marriage anniversary Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Marriage anniversary,category:Rings"
+  },
+  {
+    "term": "Mehendi Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mehendi,category:Bangle"
+  },
+  {
+    "term": "Mehendi Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mehendi,category:Bracelets"
+  },
+  {
+    "term": "Mehendi Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mehendi,category:Brooch"
+  },
+  {
+    "term": "Mehendi Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mehendi,category:Earrings"
+  },
+  {
+    "term": "Mehendi Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mehendi,category:Necklaces"
+  },
+  {
+    "term": "Mehendi Nose Pin",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mehendi,category:Nose Pin"
+  },
+  {
+    "term": "Mehendi Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mehendi,category:Rings"
+  },
+  {
+    "term": "Mother's Day Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mother's Day,category:Bracelets"
+  },
+  {
+    "term": "Mother's Day Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mother's Day,category:Brooch"
+  },
+  {
+    "term": "Mother's Day Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mother's Day,category:Earrings"
+  },
+  {
+    "term": "Mother's Day Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mother's Day,category:Necklaces"
+  },
+  {
+    "term": "Mother's Day Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Mother's Day,category:Rings"
+  },
+  {
+    "term": "New Job Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Job,category:Bangle"
+  },
+  {
+    "term": "New Job Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Job,category:Earrings"
+  },
+  {
+    "term": "New Job Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Job,category:Necklaces"
+  },
+  {
+    "term": "New Job Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Job,category:Rings"
+  },
+  {
+    "term": "New Year Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Year,category:Bangle"
+  },
+  {
+    "term": "New Year Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Year,category:Bracelets"
+  },
+  {
+    "term": "New Year Chains",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Year,category:Chains"
+  },
+  {
+    "term": "New Year Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Year,category:Earrings"
+  },
+  {
+    "term": "New Year Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Year,category:Necklaces"
+  },
+  {
+    "term": "New Year Nose Pin",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Year,category:Nose Pin"
+  },
+  {
+    "term": "New Year Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Year,category:Pendants"
+  },
+  {
+    "term": "New Year Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:New Year,category:Rings"
+  },
+  {
+    "term": "Party Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Party,category:Bracelets"
+  },
+  {
+    "term": "Party Choker",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Party,category:Choker"
+  },
+  {
+    "term": "Party Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Party,category:Necklaces"
+  },
+  {
+    "term": "Party Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Party,category:Pendants"
+  },
+  {
+    "term": "Party Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Party,category:Rings"
+  },
+  {
+    "term": "Professional milestones Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Professional milestones,category:Bangle"
+  },
+  {
+    "term": "Professional milestones Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Professional milestones,category:Bracelets"
+  },
+  {
+    "term": "Professional milestones Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Professional milestones,category:Earrings"
+  },
+  {
+    "term": "Professional milestones Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Professional milestones,category:Necklaces"
+  },
+  {
+    "term": "Professional milestones Nose Pin",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Professional milestones,category:Nose Pin"
+  },
+  {
+    "term": "Professional milestones Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Professional milestones,category:Rings"
+  },
+  {
+    "term": "Proposal Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Proposal,category:Bracelets"
+  },
+  {
+    "term": "Proposal Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Proposal,category:Brooch"
+  },
+  {
+    "term": "Proposal Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Proposal,category:Earrings"
+  },
+  {
+    "term": "Proposal Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Proposal,category:Necklaces"
+  },
+  {
+    "term": "Proposal Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Proposal,category:Pendants"
+  },
+  {
+    "term": "Proposal Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Proposal,category:Rings"
+  },
+  {
+    "term": "Purchasing a property Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Purchasing a property,category:Bangle"
+  },
+  {
+    "term": "Purchasing a property Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Purchasing a property,category:Brooch"
+  },
+  {
+    "term": "Purchasing a property Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Purchasing a property,category:Necklaces"
+  },
+  {
+    "term": "Purchasing a property Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Purchasing a property,category:Rings"
+  },
+  {
+    "term": "Rakhi Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Rakhi,category:Bangle"
+  },
+  {
+    "term": "Rakhi Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Rakhi,category:Bracelets"
+  },
+  {
+    "term": "Rakhi Chains",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Rakhi,category:Chains"
+  },
+  {
+    "term": "Rakhi Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Rakhi,category:Earrings"
+  },
+  {
+    "term": "Rakhi Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Rakhi,category:Rings"
+  },
+  {
+    "term": "Roka Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Roka,category:Bangle"
+  },
+  {
+    "term": "Roka Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Roka,category:Brooch"
+  },
+  {
+    "term": "Roka Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Roka,category:Earrings"
+  },
+  {
+    "term": "Roka Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Roka,category:Rings"
+  },
+  {
+    "term": "Sangeet Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Sangeet,category:Bracelets"
+  },
+  {
+    "term": "Sangeet Chains",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Sangeet,category:Chains"
+  },
+  {
+    "term": "Sangeet Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Sangeet,category:Pendants"
+  },
+  {
+    "term": "Sangeet Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Sangeet,category:Rings"
+  },
+  {
+    "term": "Travel Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Travel,category:Bangle"
+  },
+  {
+    "term": "Travel Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Travel,category:Bracelets"
+  },
+  {
+    "term": "Travel Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Travel,category:Earrings"
+  },
+  {
+    "term": "Travel Necklaces",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Travel,category:Necklaces"
+  },
+  {
+    "term": "Travel Pendants",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Travel,category:Pendants"
+  },
+  {
+    "term": "Travel Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Travel,category:Rings"
+  },
+  {
+    "term": "Valentines day Bangle",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Valentines day,category:Bangle"
+  },
+  {
+    "term": "Valentines day Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Valentines day,category:Earrings"
+  },
+  {
+    "term": "Valentines day Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Valentines day,category:Rings"
+  },
+  {
+    "term": "Women's Day Bracelets",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Women's Day,category:Bracelets"
+  },
+  {
+    "term": "Women's Day Brooch",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Women's Day,category:Brooch"
+  },
+  {
+    "term": "Women's Day Chains",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Women's Day,category:Chains"
+  },
+  {
+    "term": "Women's Day Choker",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Women's Day,category:Choker"
+  },
+  {
+    "term": "Women's Day Earrings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Women's Day,category:Earrings"
+  },
+  {
+    "term": "Women's Day Nose Pin",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Women's Day,category:Nose Pin"
+  },
+  {
+    "term": "Women's Day Rings",
+    "type": "occasion_category",
+    "boost": 15,
+    "target": "occasion:Women's Day,category:Rings"
+  },
+  {
+    "term": "CHAMPAGNE_GOLD Bangle",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:CHAMPAGNE_GOLD,category:Bangle"
+  },
+  {
+    "term": "CHAMPAGNE_GOLD Bracelets",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:CHAMPAGNE_GOLD,category:Bracelets"
+  },
+  {
+    "term": "CHAMPAGNE_GOLD Brooch",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:CHAMPAGNE_GOLD,category:Brooch"
+  },
+  {
+    "term": "CHAMPAGNE_GOLD Chains",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:CHAMPAGNE_GOLD,category:Chains"
+  },
+  {
+    "term": "CHAMPAGNE_GOLD Earrings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:CHAMPAGNE_GOLD,category:Earrings"
+  },
+  {
+    "term": "CHAMPAGNE_GOLD Necklaces",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:CHAMPAGNE_GOLD,category:Necklaces"
+  },
+  {
+    "term": "CHAMPAGNE_GOLD Nose Pin",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:CHAMPAGNE_GOLD,category:Nose Pin"
+  },
+  {
+    "term": "CHAMPAGNE_GOLD Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:CHAMPAGNE_GOLD,category:Rings"
+  },
+  {
+    "term": "GREEN_GOLD Bangle",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREEN_GOLD,category:Bangle"
+  },
+  {
+    "term": "GREEN_GOLD Bracelets",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREEN_GOLD,category:Bracelets"
+  },
+  {
+    "term": "GREEN_GOLD Brooch",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREEN_GOLD,category:Brooch"
+  },
+  {
+    "term": "GREEN_GOLD Chains",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREEN_GOLD,category:Chains"
+  },
+  {
+    "term": "GREEN_GOLD Earrings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREEN_GOLD,category:Earrings"
+  },
+  {
+    "term": "GREEN_GOLD Necklaces",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREEN_GOLD,category:Necklaces"
+  },
+  {
+    "term": "GREEN_GOLD Nose Pin",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREEN_GOLD,category:Nose Pin"
+  },
+  {
+    "term": "GREEN_GOLD Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREEN_GOLD,category:Rings"
+  },
+  {
+    "term": "GREY_GOLD Bangle",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREY_GOLD,category:Bangle"
+  },
+  {
+    "term": "GREY_GOLD Bracelets",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREY_GOLD,category:Bracelets"
+  },
+  {
+    "term": "GREY_GOLD Brooch",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREY_GOLD,category:Brooch"
+  },
+  {
+    "term": "GREY_GOLD Chains",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREY_GOLD,category:Chains"
+  },
+  {
+    "term": "GREY_GOLD Earrings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREY_GOLD,category:Earrings"
+  },
+  {
+    "term": "GREY_GOLD Necklaces",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREY_GOLD,category:Necklaces"
+  },
+  {
+    "term": "GREY_GOLD Nose Pin",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREY_GOLD,category:Nose Pin"
+  },
+  {
+    "term": "GREY_GOLD Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:GREY_GOLD,category:Rings"
+  },
+  {
+    "term": "ORANGE_GOLD Bangle",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ORANGE_GOLD,category:Bangle"
+  },
+  {
+    "term": "ORANGE_GOLD Bracelets",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ORANGE_GOLD,category:Bracelets"
+  },
+  {
+    "term": "ORANGE_GOLD Brooch",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ORANGE_GOLD,category:Brooch"
+  },
+  {
+    "term": "ORANGE_GOLD Chains",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ORANGE_GOLD,category:Chains"
+  },
+  {
+    "term": "ORANGE_GOLD Earrings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ORANGE_GOLD,category:Earrings"
+  },
+  {
+    "term": "ORANGE_GOLD Necklaces",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ORANGE_GOLD,category:Necklaces"
+  },
+  {
+    "term": "ORANGE_GOLD Nose Pin",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ORANGE_GOLD,category:Nose Pin"
+  },
+  {
+    "term": "ORANGE_GOLD Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ORANGE_GOLD,category:Rings"
+  },
+  {
+    "term": "PLATINUM Choker",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:PLATINUM,category:Choker"
+  },
+  {
+    "term": "PLATINUM Pendants",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:PLATINUM,category:Pendants"
+  },
+  {
+    "term": "PLATINUM Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:PLATINUM,category:Rings"
+  },
+  {
+    "term": "ROSE_GOLD Bangle",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ROSE_GOLD,category:Bangle"
+  },
+  {
+    "term": "ROSE_GOLD Bracelets",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ROSE_GOLD,category:Bracelets"
+  },
+  {
+    "term": "ROSE_GOLD Brooch",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ROSE_GOLD,category:Brooch"
+  },
+  {
+    "term": "ROSE_GOLD Chains",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ROSE_GOLD,category:Chains"
+  },
+  {
+    "term": "ROSE_GOLD Earrings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ROSE_GOLD,category:Earrings"
+  },
+  {
+    "term": "ROSE_GOLD Necklaces",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ROSE_GOLD,category:Necklaces"
+  },
+  {
+    "term": "ROSE_GOLD Nose Pin",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ROSE_GOLD,category:Nose Pin"
+  },
+  {
+    "term": "ROSE_GOLD Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:ROSE_GOLD,category:Rings"
+  },
+  {
+    "term": "SILVER Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:SILVER,category:Rings"
+  },
+  {
+    "term": "WHITE_GOLD Bangle",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:WHITE_GOLD,category:Bangle"
+  },
+  {
+    "term": "WHITE_GOLD Bracelets",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:WHITE_GOLD,category:Bracelets"
+  },
+  {
+    "term": "WHITE_GOLD Brooch",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:WHITE_GOLD,category:Brooch"
+  },
+  {
+    "term": "WHITE_GOLD Chains",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:WHITE_GOLD,category:Chains"
+  },
+  {
+    "term": "WHITE_GOLD Earrings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:WHITE_GOLD,category:Earrings"
+  },
+  {
+    "term": "WHITE_GOLD Necklaces",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:WHITE_GOLD,category:Necklaces"
+  },
+  {
+    "term": "WHITE_GOLD Nose Pin",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:WHITE_GOLD,category:Nose Pin"
+  },
+  {
+    "term": "WHITE_GOLD Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:WHITE_GOLD,category:Rings"
+  },
+  {
+    "term": "YELLOW_GOLD Bangle",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Bangle"
+  },
+  {
+    "term": "YELLOW_GOLD Bracelets",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Bracelets"
+  },
+  {
+    "term": "YELLOW_GOLD Brooch",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Brooch"
+  },
+  {
+    "term": "YELLOW_GOLD Chains",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Chains"
+  },
+  {
+    "term": "YELLOW_GOLD Earrings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Earrings"
+  },
+  {
+    "term": "YELLOW_GOLD Necklaces",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Necklaces"
+  },
+  {
+    "term": "YELLOW_GOLD Nose Pin",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Nose Pin"
+  },
+  {
+    "term": "YELLOW_GOLD Pendants",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Pendants"
+  },
+  {
+    "term": "YELLOW_GOLD Rings",
+    "type": "metal_category",
+    "boost": 12,
+    "target": "metalType:YELLOW_GOLD,category:Rings"
+  },
+  {
+    "term": "Alphabets Pendants",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Alphabets,category:Pendants"
+  },
+  {
+    "term": "C Kada Bracelets",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:C Kada,category:Bracelets"
+  },
+  {
+    "term": "Chain Pendant Necklaces",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Chain Pendant,category:Necklaces"
+  },
+  {
+    "term": "Charms Necklaces",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Charms,category:Necklaces"
+  },
+  {
+    "term": "Choker Necklaces",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Choker,category:Necklaces"
+  },
+  {
+    "term": "Cluster Bangle",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Cluster,category:Bangle"
+  },
+  {
+    "term": "Cluster Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Cluster,category:Earrings"
+  },
+  {
+    "term": "Cluster Pendants",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Cluster,category:Pendants"
+  },
+  {
+    "term": "Cluster Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Cluster,category:Rings"
+  },
+  {
+    "term": "Composite Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Composite,category:Rings"
+  },
+  {
+    "term": "Crossover Bangle",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Crossover,category:Bangle"
+  },
+  {
+    "term": "Crossover Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Crossover,category:Rings"
+  },
+  {
+    "term": "Eternity Bangle",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Eternity,category:Bangle"
+  },
+  {
+    "term": "Eternity Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Eternity,category:Earrings"
+  },
+  {
+    "term": "Floral Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Floral,category:Earrings"
+  },
+  {
+    "term": "Floral Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Floral,category:Rings"
+  },
+  {
+    "term": "Full eternity Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Full eternity,category:Rings"
+  },
+  {
+    "term": "Gemstone Bangle",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Gemstone,category:Bangle"
+  },
+  {
+    "term": "Gemstone Pendants",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Gemstone,category:Pendants"
+  },
+  {
+    "term": "Geometric Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Geometric,category:Earrings"
+  },
+  {
+    "term": "Half Eternity Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Half Eternity,category:Rings"
+  },
+  {
+    "term": "Hoops with Drop Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Hoops with Drop,category:Earrings"
+  },
+  {
+    "term": "Huggies Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Huggies,category:Earrings"
+  },
+  {
+    "term": "J Bali Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:J Bali,category:Earrings"
+  },
+  {
+    "term": "Layered necklace Necklaces",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Layered necklace,category:Necklaces"
+  },
+  {
+    "term": "Links Bracelets",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Links,category:Bracelets"
+  },
+  {
+    "term": "Long Drop Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Long Drop,category:Earrings"
+  },
+  {
+    "term": "Mini Cocktail Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Mini Cocktail,category:Rings"
+  },
+  {
+    "term": "Mini Solitaire Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Mini Solitaire,category:Rings"
+  },
+  {
+    "term": "Nakshatra Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Nakshatra,category:Earrings"
+  },
+  {
+    "term": "Nakshatra Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Nakshatra,category:Rings"
+  },
+  {
+    "term": "Others Earrings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Others,category:Earrings"
+  },
+  {
+    "term": "Others Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Others,category:Rings"
+  },
+  {
+    "term": "Plain band Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Plain band,category:Rings"
+  },
+  {
+    "term": "Rotating band Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Rotating band,category:Rings"
+  },
+  {
+    "term": "Vanki Rings",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Vanki,category:Rings"
+  },
+  {
+    "term": "Y Necklace Necklaces",
+    "type": "style_category",
+    "boost": 13,
+    "target": "style:Y Necklace,category:Necklaces"
+  },
+  {
+    "term": "Classic Collection",
+    "type": "collection",
+    "boost": 14,
+    "target": "collection:Classic"
+  },
+  {
+    "term": "Eleve Collection",
+    "type": "collection",
+    "boost": 14,
+    "target": "collection:Eleve"
+  },
+  {
+    "term": "Miss Wolf Collection",
+    "type": "collection",
+    "boost": 14,
+    "target": "collection:Miss Wolf"
+  },
+  {
+    "term": "ADJUSTABLE RINGS",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:ADJUSTABLE RINGS"
+  },
+  {
+    "term": "BANDS",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:BANDS"
+  },
+  {
+    "term": "COCKTAIL",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:COCKTAIL"
+  },
+  {
+    "term": "COUPLE RINGS",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:COUPLE RINGS"
+  },
+  {
+    "term": "DAILY WEAR",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:DAILY WEAR"
+  },
+  {
+    "term": "Drops",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:Drops"
+  },
+  {
+    "term": "ENGAGEMENT",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:ENGAGEMENT"
+  },
+  {
+    "term": "PLATINUM",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:PLATINUM"
+  },
+  {
+    "term": "PROMISE RINGS",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:PROMISE RINGS"
+  },
+  {
+    "term": "SOLITAIRE",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:SOLITAIRE"
+  },
+  {
+    "term": "Studs",
+    "type": "subcategory",
+    "boost": 11,
+    "target": "subCategory:Studs"
+  },
+  {
+    "term": "14KT Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Bangle"
+  },
+  {
+    "term": "14KT Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Bracelets"
+  },
+  {
+    "term": "14KT Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Chains"
+  },
+  {
+    "term": "14KT Champagne gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Champagne gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Blue sapphire Rings"
+  },
+  {
+    "term": "14KT Champagne gold Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Diamond Bracelets"
+  },
+  {
+    "term": "14KT Champagne gold Diamond Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Diamond Chains"
+  },
+  {
+    "term": "14KT Champagne gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Diamond Necklaces"
+  },
+  {
+    "term": "14KT Champagne gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Diamond Nose Pin"
+  },
+  {
+    "term": "14KT Champagne gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Diamond Rings"
+  },
+  {
+    "term": "14KT Champagne gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Emerald Nose Pin"
+  },
+  {
+    "term": "14KT Champagne gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Emerald Rings"
+  },
+  {
+    "term": "14KT Champagne gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Gold Bangle"
+  },
+  {
+    "term": "14KT Champagne gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Gold Bracelets"
+  },
+  {
+    "term": "14KT Champagne gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Gold Chains"
+  },
+  {
+    "term": "14KT Champagne gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Gold Necklaces"
+  },
+  {
+    "term": "14KT Champagne gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Gold Nose Pin"
+  },
+  {
+    "term": "14KT Champagne gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Gold Rings"
+  },
+  {
+    "term": "14KT Champagne gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "14KT Champagne gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Labrodrite Rings"
+  },
+  {
+    "term": "14KT Champagne gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Ruby Nose Pin"
+  },
+  {
+    "term": "14KT Champagne gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Ruby Rings"
+  },
+  {
+    "term": "14KT Champagne gold Yellow sapphire Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Yellow sapphire Bracelets"
+  },
+  {
+    "term": "14KT Champagne gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Champagne gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Champagne gold Yellow sapphire Rings"
+  },
+  {
+    "term": "14KT Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Earrings"
+  },
+  {
+    "term": "14KT Green gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Green gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Blue sapphire Rings"
+  },
+  {
+    "term": "14KT Green gold Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Diamond Bracelets"
+  },
+  {
+    "term": "14KT Green gold Diamond Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Diamond Chains"
+  },
+  {
+    "term": "14KT Green gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Diamond Earrings"
+  },
+  {
+    "term": "14KT Green gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Diamond Necklaces"
+  },
+  {
+    "term": "14KT Green gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Diamond Nose Pin"
+  },
+  {
+    "term": "14KT Green gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Diamond Rings"
+  },
+  {
+    "term": "14KT Green gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Emerald Nose Pin"
+  },
+  {
+    "term": "14KT Green gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Emerald Rings"
+  },
+  {
+    "term": "14KT Green gold Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Freshwater pearl Earrings"
+  },
+  {
+    "term": "14KT Green gold Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Freshwater pearl Necklaces"
+  },
+  {
+    "term": "14KT Green gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Gold Bangle"
+  },
+  {
+    "term": "14KT Green gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Gold Bracelets"
+  },
+  {
+    "term": "14KT Green gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Gold Chains"
+  },
+  {
+    "term": "14KT Green gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Gold Earrings"
+  },
+  {
+    "term": "14KT Green gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Gold Necklaces"
+  },
+  {
+    "term": "14KT Green gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Gold Nose Pin"
+  },
+  {
+    "term": "14KT Green gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Gold Rings"
+  },
+  {
+    "term": "14KT Green gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "14KT Green gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Labrodrite Rings"
+  },
+  {
+    "term": "14KT Green gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Ruby Nose Pin"
+  },
+  {
+    "term": "14KT Green gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Ruby Rings"
+  },
+  {
+    "term": "14KT Green gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Green gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Green gold Yellow sapphire Rings"
+  },
+  {
+    "term": "14KT Grey gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Grey gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Blue sapphire Rings"
+  },
+  {
+    "term": "14KT Grey gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Diamond Necklaces"
+  },
+  {
+    "term": "14KT Grey gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Diamond Nose Pin"
+  },
+  {
+    "term": "14KT Grey gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Diamond Rings"
+  },
+  {
+    "term": "14KT Grey gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Emerald Nose Pin"
+  },
+  {
+    "term": "14KT Grey gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Emerald Rings"
+  },
+  {
+    "term": "14KT Grey gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Gold Bangle"
+  },
+  {
+    "term": "14KT Grey gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Gold Bracelets"
+  },
+  {
+    "term": "14KT Grey gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Gold Chains"
+  },
+  {
+    "term": "14KT Grey gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Gold Necklaces"
+  },
+  {
+    "term": "14KT Grey gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Gold Nose Pin"
+  },
+  {
+    "term": "14KT Grey gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Gold Rings"
+  },
+  {
+    "term": "14KT Grey gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "14KT Grey gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Labrodrite Rings"
+  },
+  {
+    "term": "14KT Grey gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Ruby Nose Pin"
+  },
+  {
+    "term": "14KT Grey gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Ruby Rings"
+  },
+  {
+    "term": "14KT Grey gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Grey gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Grey gold Yellow sapphire Rings"
+  },
+  {
+    "term": "14KT Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Necklaces"
+  },
+  {
+    "term": "14KT Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Nose Pin"
+  },
+  {
+    "term": "14KT Orange gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Orange gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Blue sapphire Rings"
+  },
+  {
+    "term": "14KT Orange gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Diamond Earrings"
+  },
+  {
+    "term": "14KT Orange gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Diamond Necklaces"
+  },
+  {
+    "term": "14KT Orange gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Diamond Nose Pin"
+  },
+  {
+    "term": "14KT Orange gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Diamond Rings"
+  },
+  {
+    "term": "14KT Orange gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Emerald Nose Pin"
+  },
+  {
+    "term": "14KT Orange gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Emerald Rings"
+  },
+  {
+    "term": "14KT Orange gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Gold Bangle"
+  },
+  {
+    "term": "14KT Orange gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Gold Bracelets"
+  },
+  {
+    "term": "14KT Orange gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Gold Chains"
+  },
+  {
+    "term": "14KT Orange gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Gold Earrings"
+  },
+  {
+    "term": "14KT Orange gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Gold Necklaces"
+  },
+  {
+    "term": "14KT Orange gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Gold Nose Pin"
+  },
+  {
+    "term": "14KT Orange gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Gold Rings"
+  },
+  {
+    "term": "14KT Orange gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "14KT Orange gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Labrodrite Rings"
+  },
+  {
+    "term": "14KT Orange gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Ruby Nose Pin"
+  },
+  {
+    "term": "14KT Orange gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Ruby Rings"
+  },
+  {
+    "term": "14KT Orange gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Solitaire Rings"
+  },
+  {
+    "term": "14KT Orange gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Orange gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Orange gold Yellow sapphire Rings"
+  },
+  {
+    "term": "14KT Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Pendants"
+  },
+  {
+    "term": "14KT Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rings"
+  },
+  {
+    "term": "14KT Rose Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Blue sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Rose Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Blue sapphire Rings"
+  },
+  {
+    "term": "14KT Rose Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Blue topaz Rings"
+  },
+  {
+    "term": "14KT Rose Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Diamond Bracelets"
+  },
+  {
+    "term": "14KT Rose Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Diamond Earrings"
+  },
+  {
+    "term": "14KT Rose Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Diamond Necklaces"
+  },
+  {
+    "term": "14KT Rose Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Diamond Nose Pin"
+  },
+  {
+    "term": "14KT Rose Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Diamond Rings"
+  },
+  {
+    "term": "14KT Rose Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Emerald Nose Pin"
+  },
+  {
+    "term": "14KT Rose Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Emerald Rings"
+  },
+  {
+    "term": "14KT Rose Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Freshwater pearl Earrings"
+  },
+  {
+    "term": "14KT Rose Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Freshwater pearl Necklaces"
+  },
+  {
+    "term": "14KT Rose Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Gold Bangle"
+  },
+  {
+    "term": "14KT Rose Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Gold Bracelets"
+  },
+  {
+    "term": "14KT Rose Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Gold Chains"
+  },
+  {
+    "term": "14KT Rose Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Gold Earrings"
+  },
+  {
+    "term": "14KT Rose Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Gold Necklaces"
+  },
+  {
+    "term": "14KT Rose Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Gold Nose Pin"
+  },
+  {
+    "term": "14KT Rose Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Gold Rings"
+  },
+  {
+    "term": "14KT Rose Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Labrodrite Nose Pin"
+  },
+  {
+    "term": "14KT Rose Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Labrodrite Rings"
+  },
+  {
+    "term": "14KT Rose Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Mother of pearl Rings"
+  },
+  {
+    "term": "14KT Rose Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Orange sapphire Rings"
+  },
+  {
+    "term": "14KT Rose Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Pink sapphire Rings"
+  },
+  {
+    "term": "14KT Rose Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Ruby Nose Pin"
+  },
+  {
+    "term": "14KT Rose Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Ruby Rings"
+  },
+  {
+    "term": "14KT Rose Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Solitaire Rings"
+  },
+  {
+    "term": "14KT Rose Yellow sapphire Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Yellow sapphire Bracelets"
+  },
+  {
+    "term": "14KT Rose Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Rose Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Rose Yellow sapphire Rings"
+  },
+  {
+    "term": "14KT White Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Blue sapphire Nose Pin"
+  },
+  {
+    "term": "14KT White Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Blue sapphire Rings"
+  },
+  {
+    "term": "14KT White Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Blue topaz Rings"
+  },
+  {
+    "term": "14KT White Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Diamond Bracelets"
+  },
+  {
+    "term": "14KT White Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Diamond Earrings"
+  },
+  {
+    "term": "14KT White Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Diamond Necklaces"
+  },
+  {
+    "term": "14KT White Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Diamond Nose Pin"
+  },
+  {
+    "term": "14KT White Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Diamond Rings"
+  },
+  {
+    "term": "14KT White Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Emerald Nose Pin"
+  },
+  {
+    "term": "14KT White Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Emerald Rings"
+  },
+  {
+    "term": "14KT White Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Freshwater pearl Earrings"
+  },
+  {
+    "term": "14KT White Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Freshwater pearl Necklaces"
+  },
+  {
+    "term": "14KT White Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Gold Bangle"
+  },
+  {
+    "term": "14KT White Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Gold Bracelets"
+  },
+  {
+    "term": "14KT White Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Gold Chains"
+  },
+  {
+    "term": "14KT White Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Gold Earrings"
+  },
+  {
+    "term": "14KT White Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Gold Necklaces"
+  },
+  {
+    "term": "14KT White Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Gold Nose Pin"
+  },
+  {
+    "term": "14KT White Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Gold Rings"
+  },
+  {
+    "term": "14KT White Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Labrodrite Nose Pin"
+  },
+  {
+    "term": "14KT White Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Labrodrite Rings"
+  },
+  {
+    "term": "14KT White Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Mother of pearl Rings"
+  },
+  {
+    "term": "14KT White Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Orange sapphire Rings"
+  },
+  {
+    "term": "14KT White Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Pink sapphire Rings"
+  },
+  {
+    "term": "14KT White Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Ruby Nose Pin"
+  },
+  {
+    "term": "14KT White Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Ruby Rings"
+  },
+  {
+    "term": "14KT White Solitaire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Solitaire Earrings"
+  },
+  {
+    "term": "14KT White Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Solitaire Rings"
+  },
+  {
+    "term": "14KT White Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "14KT White Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT White Yellow sapphire Rings"
+  },
+  {
+    "term": "14KT Yellow Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Blue sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Yellow Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Blue sapphire Rings"
+  },
+  {
+    "term": "14KT Yellow Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Blue topaz Rings"
+  },
+  {
+    "term": "14KT Yellow Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Diamond Bracelets"
+  },
+  {
+    "term": "14KT Yellow Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Diamond Earrings"
+  },
+  {
+    "term": "14KT Yellow Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Diamond Necklaces"
+  },
+  {
+    "term": "14KT Yellow Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Diamond Nose Pin"
+  },
+  {
+    "term": "14KT Yellow Diamond Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Diamond Pendants"
+  },
+  {
+    "term": "14KT Yellow Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Diamond Rings"
+  },
+  {
+    "term": "14KT Yellow Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Emerald Nose Pin"
+  },
+  {
+    "term": "14KT Yellow Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Emerald Rings"
+  },
+  {
+    "term": "14KT Yellow Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Freshwater pearl Earrings"
+  },
+  {
+    "term": "14KT Yellow Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Freshwater pearl Necklaces"
+  },
+  {
+    "term": "14KT Yellow Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Gold Bangle"
+  },
+  {
+    "term": "14KT Yellow Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Gold Bracelets"
+  },
+  {
+    "term": "14KT Yellow Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Gold Chains"
+  },
+  {
+    "term": "14KT Yellow Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Gold Earrings"
+  },
+  {
+    "term": "14KT Yellow Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Gold Necklaces"
+  },
+  {
+    "term": "14KT Yellow Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Gold Nose Pin"
+  },
+  {
+    "term": "14KT Yellow Gold Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Gold Pendants"
+  },
+  {
+    "term": "14KT Yellow Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Gold Rings"
+  },
+  {
+    "term": "14KT Yellow Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Labrodrite Nose Pin"
+  },
+  {
+    "term": "14KT Yellow Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Labrodrite Rings"
+  },
+  {
+    "term": "14KT Yellow Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Mother of pearl Rings"
+  },
+  {
+    "term": "14KT Yellow Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Orange sapphire Rings"
+  },
+  {
+    "term": "14KT Yellow Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Pink sapphire Rings"
+  },
+  {
+    "term": "14KT Yellow Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Ruby Nose Pin"
+  },
+  {
+    "term": "14KT Yellow Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Ruby Rings"
+  },
+  {
+    "term": "14KT Yellow Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Solitaire Rings"
+  },
+  {
+    "term": "14KT Yellow Yellow sapphire Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Yellow sapphire Bracelets"
+  },
+  {
+    "term": "14KT Yellow Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "14KT Yellow Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:14KT Yellow Yellow sapphire Rings"
+  },
+  {
+    "term": "18KT Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Bangle"
+  },
+  {
+    "term": "18KT Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Bracelets"
+  },
+  {
+    "term": "18KT Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Brooch"
+  },
+  {
+    "term": "18KT Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Chains"
+  },
+  {
+    "term": "18KT Champagne gold Blue sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Blue sapphire Necklaces"
+  },
+  {
+    "term": "18KT Champagne gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Champagne gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Blue sapphire Rings"
+  },
+  {
+    "term": "18KT Champagne gold Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Diamond Bracelets"
+  },
+  {
+    "term": "18KT Champagne gold Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Diamond Brooch"
+  },
+  {
+    "term": "18KT Champagne gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Diamond Earrings"
+  },
+  {
+    "term": "18KT Champagne gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Diamond Necklaces"
+  },
+  {
+    "term": "18KT Champagne gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Diamond Nose Pin"
+  },
+  {
+    "term": "18KT Champagne gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Diamond Rings"
+  },
+  {
+    "term": "18KT Champagne gold Emerald Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Emerald Necklaces"
+  },
+  {
+    "term": "18KT Champagne gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Emerald Nose Pin"
+  },
+  {
+    "term": "18KT Champagne gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Emerald Rings"
+  },
+  {
+    "term": "18KT Champagne gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Gold Bangle"
+  },
+  {
+    "term": "18KT Champagne gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Gold Bracelets"
+  },
+  {
+    "term": "18KT Champagne gold Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Gold Brooch"
+  },
+  {
+    "term": "18KT Champagne gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Gold Chains"
+  },
+  {
+    "term": "18KT Champagne gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Gold Earrings"
+  },
+  {
+    "term": "18KT Champagne gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Gold Necklaces"
+  },
+  {
+    "term": "18KT Champagne gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Gold Nose Pin"
+  },
+  {
+    "term": "18KT Champagne gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Gold Rings"
+  },
+  {
+    "term": "18KT Champagne gold Labrodrite Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Labrodrite Necklaces"
+  },
+  {
+    "term": "18KT Champagne gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "18KT Champagne gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Labrodrite Rings"
+  },
+  {
+    "term": "18KT Champagne gold Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Ruby Necklaces"
+  },
+  {
+    "term": "18KT Champagne gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Ruby Nose Pin"
+  },
+  {
+    "term": "18KT Champagne gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Ruby Rings"
+  },
+  {
+    "term": "18KT Champagne gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Solitaire Rings"
+  },
+  {
+    "term": "18KT Champagne gold Yellow sapphire Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Yellow sapphire Bracelets"
+  },
+  {
+    "term": "18KT Champagne gold Yellow sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Yellow sapphire Necklaces"
+  },
+  {
+    "term": "18KT Champagne gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Champagne gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Champagne gold Yellow sapphire Rings"
+  },
+  {
+    "term": "18KT Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Earrings"
+  },
+  {
+    "term": "18KT Green gold Blue sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Blue sapphire Necklaces"
+  },
+  {
+    "term": "18KT Green gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Green gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Blue sapphire Rings"
+  },
+  {
+    "term": "18KT Green gold Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Diamond Bracelets"
+  },
+  {
+    "term": "18KT Green gold Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Diamond Brooch"
+  },
+  {
+    "term": "18KT Green gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Diamond Earrings"
+  },
+  {
+    "term": "18KT Green gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Diamond Necklaces"
+  },
+  {
+    "term": "18KT Green gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Diamond Nose Pin"
+  },
+  {
+    "term": "18KT Green gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Diamond Rings"
+  },
+  {
+    "term": "18KT Green gold Emerald Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Emerald Necklaces"
+  },
+  {
+    "term": "18KT Green gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Emerald Nose Pin"
+  },
+  {
+    "term": "18KT Green gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Emerald Rings"
+  },
+  {
+    "term": "18KT Green gold Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Freshwater pearl Earrings"
+  },
+  {
+    "term": "18KT Green gold Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Freshwater pearl Necklaces"
+  },
+  {
+    "term": "18KT Green gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Gold Bangle"
+  },
+  {
+    "term": "18KT Green gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Gold Bracelets"
+  },
+  {
+    "term": "18KT Green gold Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Gold Brooch"
+  },
+  {
+    "term": "18KT Green gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Gold Chains"
+  },
+  {
+    "term": "18KT Green gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Gold Earrings"
+  },
+  {
+    "term": "18KT Green gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Gold Necklaces"
+  },
+  {
+    "term": "18KT Green gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Gold Nose Pin"
+  },
+  {
+    "term": "18KT Green gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Gold Rings"
+  },
+  {
+    "term": "18KT Green gold Labrodrite Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Labrodrite Necklaces"
+  },
+  {
+    "term": "18KT Green gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "18KT Green gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Labrodrite Rings"
+  },
+  {
+    "term": "18KT Green gold Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Ruby Necklaces"
+  },
+  {
+    "term": "18KT Green gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Ruby Nose Pin"
+  },
+  {
+    "term": "18KT Green gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Ruby Rings"
+  },
+  {
+    "term": "18KT Green gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Solitaire Rings"
+  },
+  {
+    "term": "18KT Green gold Yellow sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Yellow sapphire Necklaces"
+  },
+  {
+    "term": "18KT Green gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Green gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Green gold Yellow sapphire Rings"
+  },
+  {
+    "term": "18KT Grey gold Blue sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Blue sapphire Necklaces"
+  },
+  {
+    "term": "18KT Grey gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Grey gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Blue sapphire Rings"
+  },
+  {
+    "term": "18KT Grey gold Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Diamond Bracelets"
+  },
+  {
+    "term": "18KT Grey gold Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Diamond Brooch"
+  },
+  {
+    "term": "18KT Grey gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Diamond Earrings"
+  },
+  {
+    "term": "18KT Grey gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Diamond Necklaces"
+  },
+  {
+    "term": "18KT Grey gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Diamond Nose Pin"
+  },
+  {
+    "term": "18KT Grey gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Diamond Rings"
+  },
+  {
+    "term": "18KT Grey gold Emerald Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Emerald Necklaces"
+  },
+  {
+    "term": "18KT Grey gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Emerald Nose Pin"
+  },
+  {
+    "term": "18KT Grey gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Emerald Rings"
+  },
+  {
+    "term": "18KT Grey gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Gold Bangle"
+  },
+  {
+    "term": "18KT Grey gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Gold Bracelets"
+  },
+  {
+    "term": "18KT Grey gold Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Gold Brooch"
+  },
+  {
+    "term": "18KT Grey gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Gold Chains"
+  },
+  {
+    "term": "18KT Grey gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Gold Earrings"
+  },
+  {
+    "term": "18KT Grey gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Gold Necklaces"
+  },
+  {
+    "term": "18KT Grey gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Gold Nose Pin"
+  },
+  {
+    "term": "18KT Grey gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Gold Rings"
+  },
+  {
+    "term": "18KT Grey gold Labrodrite Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Labrodrite Necklaces"
+  },
+  {
+    "term": "18KT Grey gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "18KT Grey gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Labrodrite Rings"
+  },
+  {
+    "term": "18KT Grey gold Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Ruby Necklaces"
+  },
+  {
+    "term": "18KT Grey gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Ruby Nose Pin"
+  },
+  {
+    "term": "18KT Grey gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Ruby Rings"
+  },
+  {
+    "term": "18KT Grey gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Solitaire Rings"
+  },
+  {
+    "term": "18KT Grey gold Yellow sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Yellow sapphire Necklaces"
+  },
+  {
+    "term": "18KT Grey gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Grey gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Grey gold Yellow sapphire Rings"
+  },
+  {
+    "term": "18KT Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Necklaces"
+  },
+  {
+    "term": "18KT Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Nose Pin"
+  },
+  {
+    "term": "18KT Orange gold Blue sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Blue sapphire Necklaces"
+  },
+  {
+    "term": "18KT Orange gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Orange gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Blue sapphire Rings"
+  },
+  {
+    "term": "18KT Orange gold Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Diamond Bracelets"
+  },
+  {
+    "term": "18KT Orange gold Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Diamond Brooch"
+  },
+  {
+    "term": "18KT Orange gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Diamond Earrings"
+  },
+  {
+    "term": "18KT Orange gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Diamond Necklaces"
+  },
+  {
+    "term": "18KT Orange gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Diamond Nose Pin"
+  },
+  {
+    "term": "18KT Orange gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Diamond Rings"
+  },
+  {
+    "term": "18KT Orange gold Emerald Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Emerald Necklaces"
+  },
+  {
+    "term": "18KT Orange gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Emerald Nose Pin"
+  },
+  {
+    "term": "18KT Orange gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Emerald Rings"
+  },
+  {
+    "term": "18KT Orange gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Gold Bangle"
+  },
+  {
+    "term": "18KT Orange gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Gold Bracelets"
+  },
+  {
+    "term": "18KT Orange gold Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Gold Brooch"
+  },
+  {
+    "term": "18KT Orange gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Gold Chains"
+  },
+  {
+    "term": "18KT Orange gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Gold Earrings"
+  },
+  {
+    "term": "18KT Orange gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Gold Necklaces"
+  },
+  {
+    "term": "18KT Orange gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Gold Nose Pin"
+  },
+  {
+    "term": "18KT Orange gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Gold Rings"
+  },
+  {
+    "term": "18KT Orange gold Labrodrite Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Labrodrite Necklaces"
+  },
+  {
+    "term": "18KT Orange gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "18KT Orange gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Labrodrite Rings"
+  },
+  {
+    "term": "18KT Orange gold Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Ruby Necklaces"
+  },
+  {
+    "term": "18KT Orange gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Ruby Nose Pin"
+  },
+  {
+    "term": "18KT Orange gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Ruby Rings"
+  },
+  {
+    "term": "18KT Orange gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Solitaire Rings"
+  },
+  {
+    "term": "18KT Orange gold Yellow sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Yellow sapphire Necklaces"
+  },
+  {
+    "term": "18KT Orange gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Orange gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Orange gold Yellow sapphire Rings"
+  },
+  {
+    "term": "18KT Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Pendants"
+  },
+  {
+    "term": "18KT Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rings"
+  },
+  {
+    "term": "18KT Rose Blue sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Blue sapphire Necklaces"
+  },
+  {
+    "term": "18KT Rose Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Blue sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Rose Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Blue sapphire Rings"
+  },
+  {
+    "term": "18KT Rose Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Blue topaz Rings"
+  },
+  {
+    "term": "18KT Rose Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Diamond Bracelets"
+  },
+  {
+    "term": "18KT Rose Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Diamond Brooch"
+  },
+  {
+    "term": "18KT Rose Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Diamond Earrings"
+  },
+  {
+    "term": "18KT Rose Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Diamond Necklaces"
+  },
+  {
+    "term": "18KT Rose Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Diamond Nose Pin"
+  },
+  {
+    "term": "18KT Rose Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Diamond Rings"
+  },
+  {
+    "term": "18KT Rose Emerald Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Emerald Necklaces"
+  },
+  {
+    "term": "18KT Rose Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Emerald Nose Pin"
+  },
+  {
+    "term": "18KT Rose Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Emerald Rings"
+  },
+  {
+    "term": "18KT Rose Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Freshwater pearl Earrings"
+  },
+  {
+    "term": "18KT Rose Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Freshwater pearl Necklaces"
+  },
+  {
+    "term": "18KT Rose Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Gold Bangle"
+  },
+  {
+    "term": "18KT Rose Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Gold Bracelets"
+  },
+  {
+    "term": "18KT Rose Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Gold Brooch"
+  },
+  {
+    "term": "18KT Rose Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Gold Chains"
+  },
+  {
+    "term": "18KT Rose Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Gold Earrings"
+  },
+  {
+    "term": "18KT Rose Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Gold Necklaces"
+  },
+  {
+    "term": "18KT Rose Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Gold Nose Pin"
+  },
+  {
+    "term": "18KT Rose Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Gold Rings"
+  },
+  {
+    "term": "18KT Rose Labrodrite Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Labrodrite Necklaces"
+  },
+  {
+    "term": "18KT Rose Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Labrodrite Nose Pin"
+  },
+  {
+    "term": "18KT Rose Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Labrodrite Rings"
+  },
+  {
+    "term": "18KT Rose Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Mother of pearl Rings"
+  },
+  {
+    "term": "18KT Rose Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Orange sapphire Rings"
+  },
+  {
+    "term": "18KT Rose Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Pink sapphire Rings"
+  },
+  {
+    "term": "18KT Rose Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Ruby Necklaces"
+  },
+  {
+    "term": "18KT Rose Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Ruby Nose Pin"
+  },
+  {
+    "term": "18KT Rose Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Ruby Rings"
+  },
+  {
+    "term": "18KT Rose Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Solitaire Rings"
+  },
+  {
+    "term": "18KT Rose Yellow sapphire Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Yellow sapphire Bracelets"
+  },
+  {
+    "term": "18KT Rose Yellow sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Yellow sapphire Necklaces"
+  },
+  {
+    "term": "18KT Rose Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Rose Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Rose Yellow sapphire Rings"
+  },
+  {
+    "term": "18KT White Blue sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Blue sapphire Necklaces"
+  },
+  {
+    "term": "18KT White Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Blue sapphire Nose Pin"
+  },
+  {
+    "term": "18KT White Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Blue sapphire Rings"
+  },
+  {
+    "term": "18KT White Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Blue topaz Rings"
+  },
+  {
+    "term": "18KT White Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Diamond Bracelets"
+  },
+  {
+    "term": "18KT White Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Diamond Brooch"
+  },
+  {
+    "term": "18KT White Diamond Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Diamond Chains"
+  },
+  {
+    "term": "18KT White Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Diamond Earrings"
+  },
+  {
+    "term": "18KT White Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Diamond Necklaces"
+  },
+  {
+    "term": "18KT White Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Diamond Nose Pin"
+  },
+  {
+    "term": "18KT White Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Diamond Rings"
+  },
+  {
+    "term": "18KT White Emerald Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Emerald Necklaces"
+  },
+  {
+    "term": "18KT White Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Emerald Nose Pin"
+  },
+  {
+    "term": "18KT White Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Emerald Rings"
+  },
+  {
+    "term": "18KT White Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Freshwater pearl Earrings"
+  },
+  {
+    "term": "18KT White Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Freshwater pearl Necklaces"
+  },
+  {
+    "term": "18KT White Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Gold Bangle"
+  },
+  {
+    "term": "18KT White Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Gold Bracelets"
+  },
+  {
+    "term": "18KT White Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Gold Brooch"
+  },
+  {
+    "term": "18KT White Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Gold Chains"
+  },
+  {
+    "term": "18KT White Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Gold Earrings"
+  },
+  {
+    "term": "18KT White Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Gold Necklaces"
+  },
+  {
+    "term": "18KT White Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Gold Nose Pin"
+  },
+  {
+    "term": "18KT White Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Gold Rings"
+  },
+  {
+    "term": "18KT White Labrodrite Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Labrodrite Necklaces"
+  },
+  {
+    "term": "18KT White Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Labrodrite Nose Pin"
+  },
+  {
+    "term": "18KT White Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Labrodrite Rings"
+  },
+  {
+    "term": "18KT White Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Mother of pearl Rings"
+  },
+  {
+    "term": "18KT White Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Orange sapphire Rings"
+  },
+  {
+    "term": "18KT White Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Pink sapphire Rings"
+  },
+  {
+    "term": "18KT White Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Ruby Necklaces"
+  },
+  {
+    "term": "18KT White Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Ruby Nose Pin"
+  },
+  {
+    "term": "18KT White Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Ruby Rings"
+  },
+  {
+    "term": "18KT White Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Solitaire Rings"
+  },
+  {
+    "term": "18KT White Yellow sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Yellow sapphire Necklaces"
+  },
+  {
+    "term": "18KT White Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "18KT White Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT White Yellow sapphire Rings"
+  },
+  {
+    "term": "18KT Yellow Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Blue sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Yellow Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Blue sapphire Rings"
+  },
+  {
+    "term": "18KT Yellow Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Blue topaz Rings"
+  },
+  {
+    "term": "18KT Yellow Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Diamond Bracelets"
+  },
+  {
+    "term": "18KT Yellow Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Diamond Brooch"
+  },
+  {
+    "term": "18KT Yellow Diamond Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Diamond Chains"
+  },
+  {
+    "term": "18KT Yellow Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Diamond Earrings"
+  },
+  {
+    "term": "18KT Yellow Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Diamond Necklaces"
+  },
+  {
+    "term": "18KT Yellow Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Diamond Nose Pin"
+  },
+  {
+    "term": "18KT Yellow Diamond Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Diamond Pendants"
+  },
+  {
+    "term": "18KT Yellow Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Diamond Rings"
+  },
+  {
+    "term": "18KT Yellow Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Emerald Nose Pin"
+  },
+  {
+    "term": "18KT Yellow Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Emerald Rings"
+  },
+  {
+    "term": "18KT Yellow Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Freshwater pearl Earrings"
+  },
+  {
+    "term": "18KT Yellow Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Freshwater pearl Necklaces"
+  },
+  {
+    "term": "18KT Yellow Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Bangle"
+  },
+  {
+    "term": "18KT Yellow Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Bracelets"
+  },
+  {
+    "term": "18KT Yellow Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Brooch"
+  },
+  {
+    "term": "18KT Yellow Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Chains"
+  },
+  {
+    "term": "18KT Yellow Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Earrings"
+  },
+  {
+    "term": "18KT Yellow Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Necklaces"
+  },
+  {
+    "term": "18KT Yellow Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Nose Pin"
+  },
+  {
+    "term": "18KT Yellow Gold Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Pendants"
+  },
+  {
+    "term": "18KT Yellow Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Gold Rings"
+  },
+  {
+    "term": "18KT Yellow Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Labrodrite Nose Pin"
+  },
+  {
+    "term": "18KT Yellow Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Labrodrite Rings"
+  },
+  {
+    "term": "18KT Yellow Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Mother of pearl Rings"
+  },
+  {
+    "term": "18KT Yellow Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Orange sapphire Rings"
+  },
+  {
+    "term": "18KT Yellow Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Pink sapphire Rings"
+  },
+  {
+    "term": "18KT Yellow Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Ruby Nose Pin"
+  },
+  {
+    "term": "18KT Yellow Ruby Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Ruby Pendants"
+  },
+  {
+    "term": "18KT Yellow Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Ruby Rings"
+  },
+  {
+    "term": "18KT Yellow Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Solitaire Rings"
+  },
+  {
+    "term": "18KT Yellow Yellow sapphire Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Yellow sapphire Bracelets"
+  },
+  {
+    "term": "18KT Yellow Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "18KT Yellow Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:18KT Yellow Yellow sapphire Rings"
+  },
+  {
+    "term": "22KT Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Bangle"
+  },
+  {
+    "term": "22KT Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Bracelets"
+  },
+  {
+    "term": "22KT Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Chains"
+  },
+  {
+    "term": "22KT Champagne gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Champagne gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Blue sapphire Rings"
+  },
+  {
+    "term": "22KT Champagne gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Diamond Earrings"
+  },
+  {
+    "term": "22KT Champagne gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Diamond Nose Pin"
+  },
+  {
+    "term": "22KT Champagne gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Diamond Rings"
+  },
+  {
+    "term": "22KT Champagne gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Emerald Nose Pin"
+  },
+  {
+    "term": "22KT Champagne gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Emerald Rings"
+  },
+  {
+    "term": "22KT Champagne gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Gold Bangle"
+  },
+  {
+    "term": "22KT Champagne gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Gold Bracelets"
+  },
+  {
+    "term": "22KT Champagne gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Gold Chains"
+  },
+  {
+    "term": "22KT Champagne gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Gold Earrings"
+  },
+  {
+    "term": "22KT Champagne gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Gold Nose Pin"
+  },
+  {
+    "term": "22KT Champagne gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Gold Rings"
+  },
+  {
+    "term": "22KT Champagne gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "22KT Champagne gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Labrodrite Rings"
+  },
+  {
+    "term": "22KT Champagne gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Ruby Nose Pin"
+  },
+  {
+    "term": "22KT Champagne gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Ruby Rings"
+  },
+  {
+    "term": "22KT Champagne gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Solitaire Rings"
+  },
+  {
+    "term": "22KT Champagne gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Champagne gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Champagne gold Yellow sapphire Rings"
+  },
+  {
+    "term": "22KT Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Earrings"
+  },
+  {
+    "term": "22KT Green gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Green gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Blue sapphire Rings"
+  },
+  {
+    "term": "22KT Green gold Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Diamond Bracelets"
+  },
+  {
+    "term": "22KT Green gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Diamond Earrings"
+  },
+  {
+    "term": "22KT Green gold Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Diamond Necklaces"
+  },
+  {
+    "term": "22KT Green gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Diamond Nose Pin"
+  },
+  {
+    "term": "22KT Green gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Diamond Rings"
+  },
+  {
+    "term": "22KT Green gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Emerald Nose Pin"
+  },
+  {
+    "term": "22KT Green gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Emerald Rings"
+  },
+  {
+    "term": "22KT Green gold Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Freshwater pearl Earrings"
+  },
+  {
+    "term": "22KT Green gold Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Freshwater pearl Necklaces"
+  },
+  {
+    "term": "22KT Green gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Gold Bangle"
+  },
+  {
+    "term": "22KT Green gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Gold Bracelets"
+  },
+  {
+    "term": "22KT Green gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Gold Chains"
+  },
+  {
+    "term": "22KT Green gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Gold Earrings"
+  },
+  {
+    "term": "22KT Green gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Gold Necklaces"
+  },
+  {
+    "term": "22KT Green gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Gold Nose Pin"
+  },
+  {
+    "term": "22KT Green gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Gold Rings"
+  },
+  {
+    "term": "22KT Green gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "22KT Green gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Labrodrite Rings"
+  },
+  {
+    "term": "22KT Green gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Ruby Nose Pin"
+  },
+  {
+    "term": "22KT Green gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Ruby Rings"
+  },
+  {
+    "term": "22KT Green gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Solitaire Rings"
+  },
+  {
+    "term": "22KT Green gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Green gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Green gold Yellow sapphire Rings"
+  },
+  {
+    "term": "22KT Grey gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Grey gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Blue sapphire Rings"
+  },
+  {
+    "term": "22KT Grey gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Diamond Earrings"
+  },
+  {
+    "term": "22KT Grey gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Diamond Nose Pin"
+  },
+  {
+    "term": "22KT Grey gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Diamond Rings"
+  },
+  {
+    "term": "22KT Grey gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Emerald Nose Pin"
+  },
+  {
+    "term": "22KT Grey gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Emerald Rings"
+  },
+  {
+    "term": "22KT Grey gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Gold Bangle"
+  },
+  {
+    "term": "22KT Grey gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Gold Bracelets"
+  },
+  {
+    "term": "22KT Grey gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Gold Chains"
+  },
+  {
+    "term": "22KT Grey gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Gold Earrings"
+  },
+  {
+    "term": "22KT Grey gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Gold Nose Pin"
+  },
+  {
+    "term": "22KT Grey gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Gold Rings"
+  },
+  {
+    "term": "22KT Grey gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "22KT Grey gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Labrodrite Rings"
+  },
+  {
+    "term": "22KT Grey gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Ruby Nose Pin"
+  },
+  {
+    "term": "22KT Grey gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Ruby Rings"
+  },
+  {
+    "term": "22KT Grey gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Solitaire Rings"
+  },
+  {
+    "term": "22KT Grey gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Grey gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Grey gold Yellow sapphire Rings"
+  },
+  {
+    "term": "22KT Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Necklaces"
+  },
+  {
+    "term": "22KT Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Nose Pin"
+  },
+  {
+    "term": "22KT Orange gold Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Blue sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Orange gold Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Blue sapphire Rings"
+  },
+  {
+    "term": "22KT Orange gold Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Diamond Earrings"
+  },
+  {
+    "term": "22KT Orange gold Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Diamond Nose Pin"
+  },
+  {
+    "term": "22KT Orange gold Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Diamond Rings"
+  },
+  {
+    "term": "22KT Orange gold Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Emerald Nose Pin"
+  },
+  {
+    "term": "22KT Orange gold Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Emerald Rings"
+  },
+  {
+    "term": "22KT Orange gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Gold Bangle"
+  },
+  {
+    "term": "22KT Orange gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Gold Bracelets"
+  },
+  {
+    "term": "22KT Orange gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Gold Chains"
+  },
+  {
+    "term": "22KT Orange gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Gold Earrings"
+  },
+  {
+    "term": "22KT Orange gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Gold Nose Pin"
+  },
+  {
+    "term": "22KT Orange gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Gold Rings"
+  },
+  {
+    "term": "22KT Orange gold Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Labrodrite Nose Pin"
+  },
+  {
+    "term": "22KT Orange gold Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Labrodrite Rings"
+  },
+  {
+    "term": "22KT Orange gold Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Ruby Nose Pin"
+  },
+  {
+    "term": "22KT Orange gold Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Ruby Rings"
+  },
+  {
+    "term": "22KT Orange gold Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Solitaire Rings"
+  },
+  {
+    "term": "22KT Orange gold Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Orange gold Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Orange gold Yellow sapphire Rings"
+  },
+  {
+    "term": "22KT Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rings"
+  },
+  {
+    "term": "22KT Rose Blue sapphire Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Blue sapphire Necklaces"
+  },
+  {
+    "term": "22KT Rose Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Blue sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Rose Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Blue sapphire Rings"
+  },
+  {
+    "term": "22KT Rose Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Blue topaz Rings"
+  },
+  {
+    "term": "22KT Rose Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Diamond Bracelets"
+  },
+  {
+    "term": "22KT Rose Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Diamond Earrings"
+  },
+  {
+    "term": "22KT Rose Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Diamond Necklaces"
+  },
+  {
+    "term": "22KT Rose Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Diamond Nose Pin"
+  },
+  {
+    "term": "22KT Rose Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Diamond Rings"
+  },
+  {
+    "term": "22KT Rose Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Emerald Nose Pin"
+  },
+  {
+    "term": "22KT Rose Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Emerald Rings"
+  },
+  {
+    "term": "22KT Rose Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Freshwater pearl Earrings"
+  },
+  {
+    "term": "22KT Rose Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Freshwater pearl Necklaces"
+  },
+  {
+    "term": "22KT Rose Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Gold Bangle"
+  },
+  {
+    "term": "22KT Rose Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Gold Bracelets"
+  },
+  {
+    "term": "22KT Rose Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Gold Chains"
+  },
+  {
+    "term": "22KT Rose Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Gold Earrings"
+  },
+  {
+    "term": "22KT Rose Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Gold Necklaces"
+  },
+  {
+    "term": "22KT Rose Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Gold Nose Pin"
+  },
+  {
+    "term": "22KT Rose Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Gold Rings"
+  },
+  {
+    "term": "22KT Rose Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Labrodrite Nose Pin"
+  },
+  {
+    "term": "22KT Rose Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Labrodrite Rings"
+  },
+  {
+    "term": "22KT Rose Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Mother of pearl Rings"
+  },
+  {
+    "term": "22KT Rose Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Orange sapphire Rings"
+  },
+  {
+    "term": "22KT Rose Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Pink sapphire Rings"
+  },
+  {
+    "term": "22KT Rose Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Ruby Necklaces"
+  },
+  {
+    "term": "22KT Rose Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Ruby Nose Pin"
+  },
+  {
+    "term": "22KT Rose Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Ruby Rings"
+  },
+  {
+    "term": "22KT Rose Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Solitaire Rings"
+  },
+  {
+    "term": "22KT Rose Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Rose Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Rose Yellow sapphire Rings"
+  },
+  {
+    "term": "22KT White Blue sapphire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Blue sapphire Earrings"
+  },
+  {
+    "term": "22KT White Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Blue sapphire Nose Pin"
+  },
+  {
+    "term": "22KT White Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Blue sapphire Rings"
+  },
+  {
+    "term": "22KT White Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Blue topaz Rings"
+  },
+  {
+    "term": "22KT White Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Diamond Bracelets"
+  },
+  {
+    "term": "22KT White Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Diamond Earrings"
+  },
+  {
+    "term": "22KT White Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Diamond Necklaces"
+  },
+  {
+    "term": "22KT White Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Diamond Nose Pin"
+  },
+  {
+    "term": "22KT White Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Diamond Rings"
+  },
+  {
+    "term": "22KT White Emerald Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Emerald Earrings"
+  },
+  {
+    "term": "22KT White Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Emerald Nose Pin"
+  },
+  {
+    "term": "22KT White Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Emerald Rings"
+  },
+  {
+    "term": "22KT White Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Freshwater pearl Earrings"
+  },
+  {
+    "term": "22KT White Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Freshwater pearl Necklaces"
+  },
+  {
+    "term": "22KT White Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Gold Bangle"
+  },
+  {
+    "term": "22KT White Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Gold Bracelets"
+  },
+  {
+    "term": "22KT White Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Gold Chains"
+  },
+  {
+    "term": "22KT White Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Gold Earrings"
+  },
+  {
+    "term": "22KT White Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Gold Necklaces"
+  },
+  {
+    "term": "22KT White Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Gold Nose Pin"
+  },
+  {
+    "term": "22KT White Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Gold Rings"
+  },
+  {
+    "term": "22KT White Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Labrodrite Nose Pin"
+  },
+  {
+    "term": "22KT White Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Labrodrite Rings"
+  },
+  {
+    "term": "22KT White Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Mother of pearl Rings"
+  },
+  {
+    "term": "22KT White Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Orange sapphire Rings"
+  },
+  {
+    "term": "22KT White Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Pink sapphire Rings"
+  },
+  {
+    "term": "22KT White Ruby Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Ruby Earrings"
+  },
+  {
+    "term": "22KT White Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Ruby Nose Pin"
+  },
+  {
+    "term": "22KT White Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Ruby Rings"
+  },
+  {
+    "term": "22KT White Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Solitaire Rings"
+  },
+  {
+    "term": "22KT White Yellow sapphire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Yellow sapphire Earrings"
+  },
+  {
+    "term": "22KT White Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "22KT White Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT White Yellow sapphire Rings"
+  },
+  {
+    "term": "22KT Yellow Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Blue sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Yellow Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Blue sapphire Rings"
+  },
+  {
+    "term": "22KT Yellow Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Blue topaz Rings"
+  },
+  {
+    "term": "22KT Yellow Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Diamond Bracelets"
+  },
+  {
+    "term": "22KT Yellow Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Diamond Earrings"
+  },
+  {
+    "term": "22KT Yellow Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Diamond Necklaces"
+  },
+  {
+    "term": "22KT Yellow Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Diamond Nose Pin"
+  },
+  {
+    "term": "22KT Yellow Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Diamond Rings"
+  },
+  {
+    "term": "22KT Yellow Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Emerald Nose Pin"
+  },
+  {
+    "term": "22KT Yellow Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Emerald Rings"
+  },
+  {
+    "term": "22KT Yellow Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Freshwater pearl Earrings"
+  },
+  {
+    "term": "22KT Yellow Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Freshwater pearl Necklaces"
+  },
+  {
+    "term": "22KT Yellow Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Gold Bangle"
+  },
+  {
+    "term": "22KT Yellow Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Gold Bracelets"
+  },
+  {
+    "term": "22KT Yellow Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Gold Chains"
+  },
+  {
+    "term": "22KT Yellow Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Gold Earrings"
+  },
+  {
+    "term": "22KT Yellow Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Gold Necklaces"
+  },
+  {
+    "term": "22KT Yellow Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Gold Nose Pin"
+  },
+  {
+    "term": "22KT Yellow Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Gold Rings"
+  },
+  {
+    "term": "22KT Yellow Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Labrodrite Nose Pin"
+  },
+  {
+    "term": "22KT Yellow Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Labrodrite Rings"
+  },
+  {
+    "term": "22KT Yellow Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Mother of pearl Rings"
+  },
+  {
+    "term": "22KT Yellow Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Orange sapphire Rings"
+  },
+  {
+    "term": "22KT Yellow Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Pink sapphire Rings"
+  },
+  {
+    "term": "22KT Yellow Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Ruby Necklaces"
+  },
+  {
+    "term": "22KT Yellow Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Ruby Nose Pin"
+  },
+  {
+    "term": "22KT Yellow Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Ruby Rings"
+  },
+  {
+    "term": "22KT Yellow Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Solitaire Rings"
+  },
+  {
+    "term": "22KT Yellow Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "22KT Yellow Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:22KT Yellow Yellow sapphire Rings"
+  },
+  {
+    "term": "24KT Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Bracelets"
+  },
+  {
+    "term": "24KT Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Earrings"
+  },
+  {
+    "term": "24KT Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Rings"
+  },
+  {
+    "term": "24KT Yellow Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Yellow Diamond Bracelets"
+  },
+  {
+    "term": "24KT Yellow Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Yellow Diamond Earrings"
+  },
+  {
+    "term": "24KT Yellow Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Yellow Diamond Rings"
+  },
+  {
+    "term": "24KT Yellow Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Yellow Emerald Rings"
+  },
+  {
+    "term": "24KT Yellow Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Yellow Gold Bracelets"
+  },
+  {
+    "term": "24KT Yellow Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Yellow Gold Earrings"
+  },
+  {
+    "term": "24KT Yellow Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Yellow Gold Rings"
+  },
+  {
+    "term": "24KT Yellow Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:24KT Yellow Solitaire Rings"
+  },
+  {
+    "term": "950KT Platinum Blue sapphire Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:950KT Platinum Blue sapphire Pendants"
+  },
+  {
+    "term": "950KT Platinum Diamond Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:950KT Platinum Diamond Choker"
+  },
+  {
+    "term": "950KT Platinum Diamond Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:950KT Platinum Diamond Pendants"
+  },
+  {
+    "term": "950KT Platinum Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:950KT Platinum Diamond Rings"
+  },
+  {
+    "term": "950KT Platinum Emerald Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:950KT Platinum Emerald Pendants"
+  },
+  {
+    "term": "950KT Platinum Ruby Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:950KT Platinum Ruby Choker"
+  },
+  {
+    "term": "950KT Platinum Ruby Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:950KT Platinum Ruby Pendants"
+  },
+  {
+    "term": "950KT Platinum Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:950KT Platinum Solitaire Rings"
+  },
+  {
+    "term": "Asscher Cut Solitaire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Asscher Cut Solitaire Earrings"
+  },
+  {
+    "term": "Asscher Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Asscher Earrings"
+  },
+  {
+    "term": "Asscher Solitaire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Asscher Solitaire Earrings"
+  },
+  {
+    "term": "Baguette Cut Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Baguette Cut Solitaire Rings"
+  },
+  {
+    "term": "Baguette Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Baguette Diamond Rings"
+  },
+  {
+    "term": "Baguette Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Baguette Rings"
+  },
+  {
+    "term": "Baguette Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Baguette Solitaire Rings"
+  },
+  {
+    "term": "Blue sapphire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Blue sapphire Earrings"
+  },
+  {
+    "term": "Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Blue sapphire Nose Pin"
+  },
+  {
+    "term": "Blue sapphire Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Blue sapphire Pendants"
+  },
+  {
+    "term": "Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Blue sapphire Rings"
+  },
+  {
+    "term": "Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Blue topaz Rings"
+  },
+  {
+    "term": "Champagne gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Champagne gold Gold Bangle"
+  },
+  {
+    "term": "Champagne gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Champagne gold Gold Bracelets"
+  },
+  {
+    "term": "Champagne gold Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Champagne gold Gold Brooch"
+  },
+  {
+    "term": "Champagne gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Champagne gold Gold Chains"
+  },
+  {
+    "term": "Champagne gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Champagne gold Gold Necklaces"
+  },
+  {
+    "term": "Champagne gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Champagne gold Gold Nose Pin"
+  },
+  {
+    "term": "Champagne gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Champagne gold Gold Rings"
+  },
+  {
+    "term": "Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Diamond Bracelets"
+  },
+  {
+    "term": "Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Diamond Brooch"
+  },
+  {
+    "term": "Diamond Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Diamond Choker"
+  },
+  {
+    "term": "Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Diamond Earrings"
+  },
+  {
+    "term": "Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Diamond Necklaces"
+  },
+  {
+    "term": "Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Diamond Nose Pin"
+  },
+  {
+    "term": "Diamond Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Diamond Pendants"
+  },
+  {
+    "term": "Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Diamond Rings"
+  },
+  {
+    "term": "Drop Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Drop Blue sapphire Rings"
+  },
+  {
+    "term": "Drop Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Drop Blue topaz Rings"
+  },
+  {
+    "term": "Drop Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Drop Emerald Rings"
+  },
+  {
+    "term": "Drop Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Drop Mother of pearl Rings"
+  },
+  {
+    "term": "Drop Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Drop Orange sapphire Rings"
+  },
+  {
+    "term": "Drop Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Drop Pink sapphire Rings"
+  },
+  {
+    "term": "Drop Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Drop Ruby Rings"
+  },
+  {
+    "term": "Drop Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Drop Yellow sapphire Rings"
+  },
+  {
+    "term": "Emerald Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Emerald Earrings"
+  },
+  {
+    "term": "Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Emerald Nose Pin"
+  },
+  {
+    "term": "Emerald Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Emerald Pendants"
+  },
+  {
+    "term": "Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Emerald Rings"
+  },
+  {
+    "term": "Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Freshwater pearl Earrings"
+  },
+  {
+    "term": "Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Freshwater pearl Necklaces"
+  },
+  {
+    "term": "Full drilled Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Full drilled Freshwater pearl Earrings"
+  },
+  {
+    "term": "Full drilled Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Full drilled Freshwater pearl Necklaces"
+  },
+  {
+    "term": "Green gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Green gold Gold Bangle"
+  },
+  {
+    "term": "Green gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Green gold Gold Bracelets"
+  },
+  {
+    "term": "Green gold Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Green gold Gold Brooch"
+  },
+  {
+    "term": "Green gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Green gold Gold Chains"
+  },
+  {
+    "term": "Green gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Green gold Gold Earrings"
+  },
+  {
+    "term": "Green gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Green gold Gold Necklaces"
+  },
+  {
+    "term": "Green gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Green gold Gold Nose Pin"
+  },
+  {
+    "term": "Green gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Green gold Gold Rings"
+  },
+  {
+    "term": "Grey gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Grey gold Gold Bangle"
+  },
+  {
+    "term": "Grey gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Grey gold Gold Bracelets"
+  },
+  {
+    "term": "Grey gold Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Grey gold Gold Brooch"
+  },
+  {
+    "term": "Grey gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Grey gold Gold Chains"
+  },
+  {
+    "term": "Grey gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Grey gold Gold Earrings"
+  },
+  {
+    "term": "Grey gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Grey gold Gold Necklaces"
+  },
+  {
+    "term": "Grey gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Grey gold Gold Nose Pin"
+  },
+  {
+    "term": "Grey gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Grey gold Gold Rings"
+  },
+  {
+    "term": "Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Labrodrite Nose Pin"
+  },
+  {
+    "term": "Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Labrodrite Rings"
+  },
+  {
+    "term": "Marquise Blue sapphire Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Blue sapphire Pendants"
+  },
+  {
+    "term": "Marquise Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Blue sapphire Rings"
+  },
+  {
+    "term": "Marquise Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Blue topaz Rings"
+  },
+  {
+    "term": "Marquise Emerald Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Emerald Pendants"
+  },
+  {
+    "term": "Marquise Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Emerald Rings"
+  },
+  {
+    "term": "Marquise Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Mother of pearl Rings"
+  },
+  {
+    "term": "Marquise Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Orange sapphire Rings"
+  },
+  {
+    "term": "Marquise Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Pink sapphire Rings"
+  },
+  {
+    "term": "Marquise Ruby Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Ruby Pendants"
+  },
+  {
+    "term": "Marquise Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Ruby Rings"
+  },
+  {
+    "term": "Marquise Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Marquise Yellow sapphire Rings"
+  },
+  {
+    "term": "Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Mother of pearl Rings"
+  },
+  {
+    "term": "Orange gold Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange gold Gold Bangle"
+  },
+  {
+    "term": "Orange gold Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange gold Gold Bracelets"
+  },
+  {
+    "term": "Orange gold Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange gold Gold Brooch"
+  },
+  {
+    "term": "Orange gold Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange gold Gold Chains"
+  },
+  {
+    "term": "Orange gold Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange gold Gold Earrings"
+  },
+  {
+    "term": "Orange gold Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange gold Gold Necklaces"
+  },
+  {
+    "term": "Orange gold Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange gold Gold Nose Pin"
+  },
+  {
+    "term": "Orange gold Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange gold Gold Rings"
+  },
+  {
+    "term": "Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Orange sapphire Rings"
+  },
+  {
+    "term": "Oval Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Oval Blue sapphire Rings"
+  },
+  {
+    "term": "Oval Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Oval Emerald Rings"
+  },
+  {
+    "term": "Oval Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Oval Labrodrite Rings"
+  },
+  {
+    "term": "Oval Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Oval Ruby Rings"
+  },
+  {
+    "term": "Oval Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Oval Yellow sapphire Rings"
+  },
+  {
+    "term": "Pear Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Blue sapphire Rings"
+  },
+  {
+    "term": "Pear Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Blue topaz Rings"
+  },
+  {
+    "term": "Pear Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Emerald Rings"
+  },
+  {
+    "term": "Pear Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Mother of pearl Rings"
+  },
+  {
+    "term": "Pear Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Orange sapphire Rings"
+  },
+  {
+    "term": "Pear Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Pink sapphire Rings"
+  },
+  {
+    "term": "Pear Ruby Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Ruby Pendants"
+  },
+  {
+    "term": "Pear Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Ruby Rings"
+  },
+  {
+    "term": "Pear Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pear Yellow sapphire Rings"
+  },
+  {
+    "term": "Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Pink sapphire Rings"
+  },
+  {
+    "term": "Platinum Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Platinum Choker"
+  },
+  {
+    "term": "Platinum Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Platinum Pendants"
+  },
+  {
+    "term": "Platinum Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Platinum Rings"
+  },
+  {
+    "term": "Princess Ruby Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Princess Ruby Choker"
+  },
+  {
+    "term": "Princess Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Princess Ruby Rings"
+  },
+  {
+    "term": "Rose Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Rose Gold Bangle"
+  },
+  {
+    "term": "Rose Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Rose Gold Bracelets"
+  },
+  {
+    "term": "Rose Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Rose Gold Brooch"
+  },
+  {
+    "term": "Rose Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Rose Gold Chains"
+  },
+  {
+    "term": "Rose Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Rose Gold Earrings"
+  },
+  {
+    "term": "Rose Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Rose Gold Necklaces"
+  },
+  {
+    "term": "Rose Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Rose Gold Nose Pin"
+  },
+  {
+    "term": "Rose Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Rose Gold Rings"
+  },
+  {
+    "term": "Round Blue sapphire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Blue sapphire Earrings"
+  },
+  {
+    "term": "Round Blue sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Blue sapphire Nose Pin"
+  },
+  {
+    "term": "Round Blue sapphire Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Blue sapphire Pendants"
+  },
+  {
+    "term": "Round Blue sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Blue sapphire Rings"
+  },
+  {
+    "term": "Round Blue topaz Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Blue topaz Rings"
+  },
+  {
+    "term": "Round Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Bracelets"
+  },
+  {
+    "term": "Round Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Brooch"
+  },
+  {
+    "term": "Round Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Choker"
+  },
+  {
+    "term": "Round Cut Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Cut Solitaire Rings"
+  },
+  {
+    "term": "Round Diamond Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Diamond Bracelets"
+  },
+  {
+    "term": "Round Diamond Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Diamond Brooch"
+  },
+  {
+    "term": "Round Diamond Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Diamond Choker"
+  },
+  {
+    "term": "Round Diamond Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Diamond Earrings"
+  },
+  {
+    "term": "Round Diamond Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Diamond Necklaces"
+  },
+  {
+    "term": "Round Diamond Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Diamond Nose Pin"
+  },
+  {
+    "term": "Round Diamond Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Diamond Pendants"
+  },
+  {
+    "term": "Round Diamond Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Diamond Rings"
+  },
+  {
+    "term": "Round Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Earrings"
+  },
+  {
+    "term": "Round Emerald Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Emerald Earrings"
+  },
+  {
+    "term": "Round Emerald Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Emerald Nose Pin"
+  },
+  {
+    "term": "Round Emerald Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Emerald Pendants"
+  },
+  {
+    "term": "Round Emerald Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Emerald Rings"
+  },
+  {
+    "term": "Round Freshwater pearl Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Freshwater pearl Earrings"
+  },
+  {
+    "term": "Round Freshwater pearl Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Freshwater pearl Necklaces"
+  },
+  {
+    "term": "Round Labrodrite Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Labrodrite Nose Pin"
+  },
+  {
+    "term": "Round Labrodrite Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Labrodrite Rings"
+  },
+  {
+    "term": "Round Mother of pearl Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Mother of pearl Rings"
+  },
+  {
+    "term": "Round Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Necklaces"
+  },
+  {
+    "term": "Round Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Nose Pin"
+  },
+  {
+    "term": "Round Orange sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Orange sapphire Rings"
+  },
+  {
+    "term": "Round Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Pendants"
+  },
+  {
+    "term": "Round Pink sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Pink sapphire Rings"
+  },
+  {
+    "term": "Round Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Rings"
+  },
+  {
+    "term": "Round Ruby Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Ruby Choker"
+  },
+  {
+    "term": "Round Ruby Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Ruby Earrings"
+  },
+  {
+    "term": "Round Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Ruby Necklaces"
+  },
+  {
+    "term": "Round Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Ruby Nose Pin"
+  },
+  {
+    "term": "Round Ruby Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Ruby Pendants"
+  },
+  {
+    "term": "Round Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Ruby Rings"
+  },
+  {
+    "term": "Round Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Solitaire Rings"
+  },
+  {
+    "term": "Round Yellow sapphire Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Yellow sapphire Bracelets"
+  },
+  {
+    "term": "Round Yellow sapphire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Yellow sapphire Earrings"
+  },
+  {
+    "term": "Round Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "Round Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Round Yellow sapphire Rings"
+  },
+  {
+    "term": "Ruby Choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Ruby Choker"
+  },
+  {
+    "term": "Ruby Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Ruby Earrings"
+  },
+  {
+    "term": "Ruby Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Ruby Necklaces"
+  },
+  {
+    "term": "Ruby Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Ruby Nose Pin"
+  },
+  {
+    "term": "Ruby Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Ruby Pendants"
+  },
+  {
+    "term": "Ruby Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Ruby Rings"
+  },
+  {
+    "term": "Solitaire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Solitaire Earrings"
+  },
+  {
+    "term": "Solitaire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Solitaire Rings"
+  },
+  {
+    "term": "White Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:White Gold Bangle"
+  },
+  {
+    "term": "White Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:White Gold Bracelets"
+  },
+  {
+    "term": "White Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:White Gold Brooch"
+  },
+  {
+    "term": "White Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:White Gold Chains"
+  },
+  {
+    "term": "White Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:White Gold Earrings"
+  },
+  {
+    "term": "White Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:White Gold Necklaces"
+  },
+  {
+    "term": "White Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:White Gold Nose Pin"
+  },
+  {
+    "term": "White Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:White Gold Rings"
+  },
+  {
+    "term": "Yellow Gold Bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Bangle"
+  },
+  {
+    "term": "Yellow Gold Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Bracelets"
+  },
+  {
+    "term": "Yellow Gold Brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Brooch"
+  },
+  {
+    "term": "Yellow Gold Chains",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Chains"
+  },
+  {
+    "term": "Yellow Gold Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Earrings"
+  },
+  {
+    "term": "Yellow Gold Necklaces",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Necklaces"
+  },
+  {
+    "term": "Yellow Gold Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Nose Pin"
+  },
+  {
+    "term": "Yellow Gold Pendants",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Pendants"
+  },
+  {
+    "term": "Yellow Gold Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow Gold Rings"
+  },
+  {
+    "term": "Yellow sapphire Bracelets",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow sapphire Bracelets"
+  },
+  {
+    "term": "Yellow sapphire Earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow sapphire Earrings"
+  },
+  {
+    "term": "Yellow sapphire Nose Pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow sapphire Nose Pin"
+  },
+  {
+    "term": "Yellow sapphire Rings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:Yellow sapphire Rings"
+  },
+  {
+    "term": "affection",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:affection"
+  },
+  {
+    "term": "angular design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:angular design"
+  },
+  {
+    "term": "anniversary",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:anniversary"
+  },
+  {
+    "term": "anniversary gift",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:anniversary gift"
+  },
+  {
+    "term": "anniversary ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:anniversary ring"
+  },
+  {
+    "term": "architectural jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:architectural jewelry"
+  },
+  {
+    "term": "bimetal jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:bimetal jewelry"
+  },
+  {
+    "term": "birthday gift",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:birthday gift"
+  },
+  {
+    "term": "bloom design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:bloom design"
+  },
+  {
+    "term": "blossom design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:blossom design"
+  },
+  {
+    "term": "bold",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:bold"
+  },
+  {
+    "term": "bold fashion",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:bold fashion"
+  },
+  {
+    "term": "bridal",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:bridal"
+  },
+  {
+    "term": "bridal accessory",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:bridal accessory"
+  },
+  {
+    "term": "bridal jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:bridal jewelry"
+  },
+  {
+    "term": "cascade earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:cascade earrings"
+  },
+  {
+    "term": "celestial",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:celestial"
+  },
+  {
+    "term": "celestial jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:celestial jewelry"
+  },
+  {
+    "term": "chain earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:chain earrings"
+  },
+  {
+    "term": "choker necklace",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:choker necklace"
+  },
+  {
+    "term": "classic bracelet",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:classic bracelet"
+  },
+  {
+    "term": "classic elegance",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:classic elegance"
+  },
+  {
+    "term": "classic jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:classic jewelry"
+  },
+  {
+    "term": "classic ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:classic ring"
+  },
+  {
+    "term": "clean lines",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:clean lines"
+  },
+  {
+    "term": "contemporary",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:contemporary"
+  },
+  {
+    "term": "contemporary jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:contemporary jewelry"
+  },
+  {
+    "term": "cosmic jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:cosmic jewelry"
+  },
+  {
+    "term": "crest jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:crest jewelry"
+  },
+  {
+    "term": "crimson pearls",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:crimson pearls"
+  },
+  {
+    "term": "cultural",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:cultural"
+  },
+  {
+    "term": "delicate",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:delicate"
+  },
+  {
+    "term": "delicate jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:delicate jewelry"
+  },
+  {
+    "term": "designer bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:designer bangle"
+  },
+  {
+    "term": "designer bracelet",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:designer bracelet"
+  },
+  {
+    "term": "designer choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:designer choker"
+  },
+  {
+    "term": "designer earcuff",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:designer earcuff"
+  },
+  {
+    "term": "designer earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:designer earrings"
+  },
+  {
+    "term": "designer necklace",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:designer necklace"
+  },
+  {
+    "term": "designer ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:designer ring"
+  },
+  {
+    "term": "dewdrop design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:dewdrop design"
+  },
+  {
+    "term": "diamond and platinum band",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:diamond and platinum band"
+  },
+  {
+    "term": "diamond band",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:diamond band"
+  },
+  {
+    "term": "diamond brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:diamond brooch"
+  },
+  {
+    "term": "diamond necklace",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:diamond necklace"
+  },
+  {
+    "term": "diamond ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:diamond ring"
+  },
+  {
+    "term": "drop earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:drop earrings"
+  },
+  {
+    "term": "dual tone diamond band",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:dual tone diamond band"
+  },
+  {
+    "term": "earcuff",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:earcuff"
+  },
+  {
+    "term": "engagement ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:engagement ring"
+  },
+  {
+    "term": "essential design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:essential design"
+  },
+  {
+    "term": "ethnic jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:ethnic jewelry"
+  },
+  {
+    "term": "everyday wear",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:everyday wear"
+  },
+  {
+    "term": "facial jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:facial jewelry"
+  },
+  {
+    "term": "fashion jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:fashion jewelry"
+  },
+  {
+    "term": "feminine jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:feminine jewelry"
+  },
+  {
+    "term": "feminine ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:feminine ring"
+  },
+  {
+    "term": "festive",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:festive"
+  },
+  {
+    "term": "filigree jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:filigree jewelry"
+  },
+  {
+    "term": "fine jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:fine jewelry"
+  },
+  {
+    "term": "floral jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:floral jewelry"
+  },
+  {
+    "term": "formal wear",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:formal wear"
+  },
+  {
+    "term": "garden-inspired",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:garden-inspired"
+  },
+  {
+    "term": "gemstone nose pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gemstone nose pin"
+  },
+  {
+    "term": "geometric",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:geometric"
+  },
+  {
+    "term": "geometric ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:geometric ring"
+  },
+  {
+    "term": "gift for her",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gift for her"
+  },
+  {
+    "term": "gift for him",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gift for him"
+  },
+  {
+    "term": "gold bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold bangle"
+  },
+  {
+    "term": "gold bracelet",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold bracelet"
+  },
+  {
+    "term": "gold brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold brooch"
+  },
+  {
+    "term": "gold choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold choker"
+  },
+  {
+    "term": "gold earcuff",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold earcuff"
+  },
+  {
+    "term": "gold necklace",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold necklace"
+  },
+  {
+    "term": "gold nose pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold nose pin"
+  },
+  {
+    "term": "gold nose ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold nose ring"
+  },
+  {
+    "term": "gold pendant",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold pendant"
+  },
+  {
+    "term": "gold ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:gold ring"
+  },
+  {
+    "term": "heart pattern",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:heart pattern"
+  },
+  {
+    "term": "heirloom",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:heirloom"
+  },
+  {
+    "term": "heirloom jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:heirloom jewelry"
+  },
+  {
+    "term": "heritage",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:heritage"
+  },
+  {
+    "term": "knot ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:knot ring"
+  },
+  {
+    "term": "leaf jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:leaf jewelry"
+  },
+  {
+    "term": "luxury accessory",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:luxury accessory"
+  },
+  {
+    "term": "luxury jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:luxury jewelry"
+  },
+  {
+    "term": "master craftsmanship",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:master craftsmanship"
+  },
+  {
+    "term": "men's brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:men's brooch"
+  },
+  {
+    "term": "men's fashion",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:men's fashion"
+  },
+  {
+    "term": "minimalist",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:minimalist"
+  },
+  {
+    "term": "minimalist jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:minimalist jewelry"
+  },
+  {
+    "term": "minimalist ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:minimalist ring"
+  },
+  {
+    "term": "miracle plate",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:miracle plate"
+  },
+  {
+    "term": "modern design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:modern design"
+  },
+  {
+    "term": "modern elegance",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:modern elegance"
+  },
+  {
+    "term": "modern platinum",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:modern platinum"
+  },
+  {
+    "term": "modern platinum band",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:modern platinum band"
+  },
+  {
+    "term": "modern ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:modern ring"
+  },
+  {
+    "term": "nature inspired",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:nature inspired"
+  },
+  {
+    "term": "nature-inspired",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:nature-inspired"
+  },
+  {
+    "term": "nose pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:nose pin"
+  },
+  {
+    "term": "nose ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:nose ring"
+  },
+  {
+    "term": "ornate design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:ornate design"
+  },
+  {
+    "term": "ornate jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:ornate jewelry"
+  },
+  {
+    "term": "party wear",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:party wear"
+  },
+  {
+    "term": "pave setting",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:pave setting"
+  },
+  {
+    "term": "pearl choker",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:pearl choker"
+  },
+  {
+    "term": "pendant necklace",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:pendant necklace"
+  },
+  {
+    "term": "perfect proportions",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:perfect proportions"
+  },
+  {
+    "term": "petal design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:petal design"
+  },
+  {
+    "term": "platinum",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:platinum"
+  },
+  {
+    "term": "platinum band",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:platinum band"
+  },
+  {
+    "term": "platinum brooch",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:platinum brooch"
+  },
+  {
+    "term": "platinum crossover ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:platinum crossover ring"
+  },
+  {
+    "term": "platinum necklace",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:platinum necklace"
+  },
+  {
+    "term": "platinum ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:platinum ring"
+  },
+  {
+    "term": "radiant women's ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:radiant women's ring"
+  },
+  {
+    "term": "red gemstone",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:red gemstone"
+  },
+  {
+    "term": "regal accessory",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:regal accessory"
+  },
+  {
+    "term": "regal jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:regal jewelry"
+  },
+  {
+    "term": "romantic band",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:romantic band"
+  },
+  {
+    "term": "romantic gift",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:romantic gift"
+  },
+  {
+    "term": "romantic jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:romantic jewelry"
+  },
+  {
+    "term": "rose gold",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:rose gold"
+  },
+  {
+    "term": "rose gold earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:rose gold earrings"
+  },
+  {
+    "term": "ruby ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:ruby ring"
+  },
+  {
+    "term": "sapphire ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sapphire ring"
+  },
+  {
+    "term": "sculptural ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sculptural ring"
+  },
+  {
+    "term": "sentimental",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sentimental"
+  },
+  {
+    "term": "sentimental gift",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sentimental gift"
+  },
+  {
+    "term": "shooting star",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:shooting star"
+  },
+  {
+    "term": "simple elegance",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:simple elegance"
+  },
+  {
+    "term": "small gift",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:small gift"
+  },
+  {
+    "term": "solitaire ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:solitaire ring"
+  },
+  {
+    "term": "sophisticated",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sophisticated"
+  },
+  {
+    "term": "sophisticated jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sophisticated jewelry"
+  },
+  {
+    "term": "sparkling",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sparkling"
+  },
+  {
+    "term": "special occasion",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:special occasion"
+  },
+  {
+    "term": "spiral earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:spiral earrings"
+  },
+  {
+    "term": "stackable ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:stackable ring"
+  },
+  {
+    "term": "star necklace",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:star necklace"
+  },
+  {
+    "term": "starfall design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:starfall design"
+  },
+  {
+    "term": "statement band",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement band"
+  },
+  {
+    "term": "statement bangle",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement bangle"
+  },
+  {
+    "term": "statement bracelet",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement bracelet"
+  },
+  {
+    "term": "statement earcuff",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement earcuff"
+  },
+  {
+    "term": "statement earrings",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement earrings"
+  },
+  {
+    "term": "statement jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement jewelry"
+  },
+  {
+    "term": "statement necklace",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement necklace"
+  },
+  {
+    "term": "statement pin",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement pin"
+  },
+  {
+    "term": "statement ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:statement ring"
+  },
+  {
+    "term": "sterling silver",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sterling silver"
+  },
+  {
+    "term": "sunset design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:sunset design"
+  },
+  {
+    "term": "symbolic",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:symbolic"
+  },
+  {
+    "term": "symbolic engagement ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:symbolic engagement ring"
+  },
+  {
+    "term": "t bar bracelet",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:t bar bracelet"
+  },
+  {
+    "term": "tailored style",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:tailored style"
+  },
+  {
+    "term": "temple jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:temple jewelry"
+  },
+  {
+    "term": "timeless",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:timeless"
+  },
+  {
+    "term": "timeless design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:timeless design"
+  },
+  {
+    "term": "traditional",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:traditional"
+  },
+  {
+    "term": "traditional craftsmanship",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:traditional craftsmanship"
+  },
+  {
+    "term": "traditional design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:traditional design"
+  },
+  {
+    "term": "traditional jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:traditional jewelry"
+  },
+  {
+    "term": "twin band ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:twin band ring"
+  },
+  {
+    "term": "two-tone ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:two-tone ring"
+  },
+  {
+    "term": "unique",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:unique"
+  },
+  {
+    "term": "unique bridal",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:unique bridal"
+  },
+  {
+    "term": "unique design",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:unique design"
+  },
+  {
+    "term": "unique jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:unique jewelry"
+  },
+  {
+    "term": "unisex earcuff",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:unisex earcuff"
+  },
+  {
+    "term": "unisex jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:unisex jewelry"
+  },
+  {
+    "term": "versatile",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:versatile"
+  },
+  {
+    "term": "vibrant",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:vibrant"
+  },
+  {
+    "term": "vintage style",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:vintage style"
+  },
+  {
+    "term": "wedding band",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:wedding band"
+  },
+  {
+    "term": "wedding jewelry",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:wedding jewelry"
+  },
+  {
+    "term": "wedding ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:wedding ring"
+  },
+  {
+    "term": "white gold",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:white gold"
+  },
+  {
+    "term": "white gold ring",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:white gold ring"
+  },
+  {
+    "term": "yellow gold",
+    "type": "search_tag",
+    "boost": 9,
+    "target": "searchTags:yellow gold"
+  },
+  {
+    "term": "New Arrivals",
+    "type": "marketing",
+    "boost": 20,
+    "target": "sort:newest"
+  },
+  {
+    "term": "Best Sellers",
+    "type": "marketing",
+    "boost": 20,
+    "target": "sort:popularity"
+  }
+]

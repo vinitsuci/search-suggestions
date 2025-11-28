@@ -56,7 +56,18 @@ npm run dev
 
 This will create `suggestions-output.json` in the project root. Review this file to verify the suggestions before syncing.
 
-### Step 2: Sync to Typesense (when ready)
+### Step 2: View Suggestions in Browser
+
+To view the generated suggestions in a simple web interface:
+
+```bash
+# Start local server and open browser
+npm run dev
+```
+
+This will start a server at `http://localhost:8081` and open `index.html` to display your suggestions.
+
+### Step 3: Sync to Typesense (when ready)
 
 ```bash
 # Sync requires the Admin API Key
