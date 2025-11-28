@@ -1,0 +1,23 @@
+{
+  "name": "suggestion-service",
+  "version": "1.0.0",
+  "description": "Service to generate and sync search suggestions to Typesense",
+  "main": "dist/run.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/run.js",
+    "dev": "ts-node src/run.ts"
+  },
+  "keywords": ["typesense", "search", "suggestions"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typesense": "^1.7.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2",
+    "ts-node": "^10.9.1"
+  }
+}

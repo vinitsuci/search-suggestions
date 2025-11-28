@@ -1,0 +1,14 @@
+[
+  {
+    "term": "New Arrivals",
+    "type": "marketing",
+    "boost": 20,
+    "target": "sort:newest"
+  },
+  {
+    "term": "Best Sellers",
+    "type": "marketing",
+    "boost": 20,
+    "target": "sort:popularity"
+  }
+]
