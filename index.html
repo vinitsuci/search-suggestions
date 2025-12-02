@@ -1,726 +1,851 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search Suggestions Viewer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 2rem;
-        }
+      body {
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 2rem;
+      }
 
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
 
-        .header {
-            text-align: center;
-            color: white;
-            margin-bottom: 2rem;
-        }
+      .header {
+        text-align: center;
+        color: white;
+        margin-bottom: 2rem;
+      }
 
-        .header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
-        }
+      .header h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      }
 
-        .header p {
-            font-size: 1.1rem;
-            opacity: 0.95;
-        }
+      .header p {
+        font-size: 1.1rem;
+        opacity: 0.95;
+      }
 
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
 
-        .stat-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
+      .stat-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
 
-        .stat-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-        }
+      .stat-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+      }
 
-        .stat-card h3 {
-            font-size: 0.875rem;
-            color: #64748b;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-        }
+      .stat-card h3 {
+        font-size: 0.875rem;
+        color: #64748b;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
 
-        .stat-card .value {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #1e293b;
-        }
+      .stat-card .value {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1e293b;
+      }
 
-        .controls {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 16px;
-            margin-bottom: 2rem;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-        }
+      .controls {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 16px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
 
-        .filter-group {
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            align-items: center;
-        }
+      .filter-group {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+      }
 
-        .filter-group label {
-            font-weight: 600;
-            color: #475569;
-        }
+      .filter-group label {
+        font-weight: 600;
+        color: #475569;
+      }
 
-        select, input {
-            padding: 0.75rem 1rem;
-            border: 2px solid #e2e8f0;
-            border-radius: 8px;
-            font-size: 0.95rem;
-            font-family: inherit;
-            transition: border-color 0.2s;
-        }
+      select,
+      input {
+        padding: 0.75rem 1rem;
+        border: 2px solid #e2e8f0;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-family: inherit;
+        transition: border-color 0.2s;
+      }
 
-        select:focus, input:focus {
-            outline: none;
-            border-color: #667eea;
-        }
+      select:focus,
+      input:focus {
+        outline: none;
+        border-color: #667eea;
+      }
 
-        input[type="search"] {
-            flex: 1;
-            min-width: 250px;
-        }
+      input[type="search"] {
+        flex: 1;
+        min-width: 250px;
+      }
 
-        .suggestions-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
+      .suggestions-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
 
-        .suggestion-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            transition: all 0.2s;
-            cursor: pointer;
-            border: 2px solid transparent;
-        }
+      .suggestion-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        transition: all 0.2s;
+        cursor: pointer;
+        border: 2px solid transparent;
+      }
 
-        .suggestion-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.12);
-            border-color: #667eea;
-        }
+      .suggestion-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+        border-color: #667eea;
+      }
 
-        .suggestion-term {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1e293b;
-            margin-bottom: 0.75rem;
-        }
+      .suggestion-term {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 0.75rem;
+      }
 
-        .suggestion-meta {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 0.75rem;
-        }
+      .suggestion-meta {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.75rem;
+      }
 
-        .badge {
-            padding: 0.25rem 0.75rem;
-            border-radius: 6px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
+      .badge {
+        padding: 0.25rem 0.75rem;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
 
-        .badge-category { background: #dbeafe; color: #1e40af; }
-        .badge-subcategory { background: #e0f2fe; color: #075985; }
-        .badge-occasion_category { background: #fce7f3; color: #9f1239; }
-        .badge-metal_category { background: #fef3c7; color: #92400e; }
-        .badge-style_category { background: #d1fae5; color: #065f46; }
-        .badge-collection { background: #e0e7ff; color: #3730a3; }
-        .badge-search_tag { background: #fef9c3; color: #854d0e; }
-        .badge-marketing { background: #fce4ec; color: #c2185b; }
+      .badge-category {
+        background: #dbeafe;
+        color: #1e40af;
+      }
+      .badge-subcategory {
+        background: #e0f2fe;
+        color: #075985;
+      }
+      .badge-occasion_category {
+        background: #fce7f3;
+        color: #9f1239;
+      }
+      .badge-metal_category {
+        background: #fef3c7;
+        color: #92400e;
+      }
+      .badge-style_category {
+        background: #d1fae5;
+        color: #065f46;
+      }
+      .badge-collection {
+        background: #e0e7ff;
+        color: #3730a3;
+      }
+      .badge-search_tag {
+        background: #fef9c3;
+        color: #854d0e;
+      }
+      .badge-marketing {
+        background: #fce4ec;
+        color: #c2185b;
+      }
 
-        .boost-badge {
-            background: #f1f5f9;
-            color: #475569;
-        }
+      .boost-badge {
+        background: #f1f5f9;
+        color: #475569;
+      }
 
-        .suggestion-target {
-            font-size: 0.875rem;
-            color: #64748b;
-            font-family: 'Monaco', 'Courier New', monospace;
-            background: #f8fafc;
-            padding: 0.5rem;
-            border-radius: 6px;
-            margin-top: 0.5rem;
-        }
+      .suggestion-target {
+        font-size: 0.875rem;
+        color: #64748b;
+        font-family: "Monaco", "Courier New", monospace;
+        background: #f8fafc;
+        padding: 0.5rem;
+        border-radius: 6px;
+        margin-top: 0.5rem;
+      }
 
-        .test-button {
-            margin-top: 1rem;
-            padding: 0.625rem 1.25rem;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-            width: 100%;
-        }
+      .test-button {
+        margin-top: 1rem;
+        padding: 0.625rem 1.25rem;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+        width: 100%;
+      }
 
-        .test-button:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-        }
+      .test-button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+      }
 
-        .test-button:active {
-            transform: translateY(0);
-        }
+      .test-button:active {
+        transform: translateY(0);
+      }
 
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.7);
-            z-index: 1000;
-            padding: 2rem;
-            overflow-y: auto;
-        }
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+        padding: 2rem;
+        overflow-y: auto;
+      }
 
-        .modal-content {
-            background: white;
-            max-width: 900px;
-            margin: 2rem auto;
-            border-radius: 16px;
-            padding: 2rem;
-            position: relative;
-        }
+      .modal-content {
+        background: white;
+        max-width: 900px;
+        margin: 2rem auto;
+        border-radius: 16px;
+        padding: 2rem;
+        position: relative;
+      }
 
-        .modal-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1.5rem;
-            padding-bottom: 1rem;
-            border-bottom: 2px solid #e2e8f0;
-        }
+      .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #e2e8f0;
+      }
 
-        .modal-header h2 {
-            font-size: 1.5rem;
-            color: #1e293b;
-        }
+      .modal-header h2 {
+        font-size: 1.5rem;
+        color: #1e293b;
+      }
 
-        .close-button {
-            background: none;
-            border: none;
-            font-size: 2rem;
-            color: #64748b;
-            cursor: pointer;
-            padding: 0;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 8px;
-            transition: background 0.2s;
-        }
+      .close-button {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: #64748b;
+        cursor: pointer;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        transition: background 0.2s;
+      }
 
-        .close-button:hover {
-            background: #f1f5f9;
-        }
+      .close-button:hover {
+        background: #f1f5f9;
+      }
 
-        .results-container {
-            margin-top: 1rem;
-        }
+      .results-container {
+        margin-top: 1rem;
+      }
 
-        .result-item {
-            padding: 1rem;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            margin-bottom: 0.75rem;
-            transition: border-color 0.2s;
-        }
+      .result-item {
+        padding: 1rem;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        margin-bottom: 0.75rem;
+        transition: border-color 0.2s;
+      }
 
-        .result-item:hover {
-            border-color: #667eea;
-        }
+      .result-item:hover {
+        border-color: #667eea;
+      }
 
-        .result-name {
-            font-weight: 600;
-            color: #1e293b;
-            margin-bottom: 0.5rem;
-        }
+      .result-name {
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 0.5rem;
+      }
 
-        .result-details {
-            font-size: 0.875rem;
-            color: #64748b;
-        }
+      .result-details {
+        font-size: 0.875rem;
+        color: #64748b;
+      }
 
-        .loading {
-            text-align: center;
-            padding: 2rem;
-            color: #64748b;
-        }
+      .loading {
+        text-align: center;
+        padding: 2rem;
+        color: #64748b;
+      }
 
-        .no-results {
-            text-align: center;
-            padding: 3rem;
-            color: #64748b;
-        }
+      .no-results {
+        text-align: center;
+        padding: 3rem;
+        color: #64748b;
+      }
 
-        .empty-state {
-            text-align: center;
-            padding: 4rem 2rem;
-            color: #64748b;
-        }
+      .empty-state {
+        text-align: center;
+        padding: 4rem 2rem;
+        color: #64748b;
+      }
 
-        .empty-state svg {
-            width: 100px;
-            height: 100px;
-            margin-bottom: 1rem;
-            opacity: 0.5;
-        }
+      .empty-state svg {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem;
+        opacity: 0.5;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <button class="info-button" onclick="openWalkthrough()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-        How it works
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+      </svg>
+      How it works
     </button>
 
     <div class="container">
-        <div class="header">
-            <h1>🔍 Search Suggestions Viewer</h1>
-            <p>Browse and test your generated search suggestions</p>
+      <div class="header">
+        <h1>🔍 Search Suggestions Viewer</h1>
+        <p>Browse and test your generated search suggestions</p>
+      </div>
+
+      <div class="stats-grid" id="stats"></div>
+
+      <div class="controls">
+        <div class="filter-group">
+          <label>Filter by Type:</label>
+          <select id="typeFilter">
+            <option value="all">All Types</option>
+          </select>
+
+          <input
+            type="search"
+            id="searchFilter"
+            placeholder="Search suggestions..."
+          />
         </div>
+      </div>
 
-        <div class="stats-grid" id="stats"></div>
-
-        <div class="controls">
-            <div class="filter-group">
-                <label>Filter by Type:</label>
-                <select id="typeFilter">
-                    <option value="all">All Types</option>
-                </select>
-                
-                <input type="search" id="searchFilter" placeholder="Search suggestions...">
-            </div>
-        </div>
-
-        <div class="suggestions-grid" id="suggestionsGrid"></div>
+      <div class="suggestions-grid" id="suggestionsGrid"></div>
     </div>
 
     <div class="modal" id="testModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 id="modalTitle">Test Suggestion</h2>
-                <button class="close-button" onclick="closeModal('testModal')">&times;</button>
-            </div>
-            <div class="results-container" id="resultsContainer">
-                <div class="loading">Loading results...</div>
-            </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="modalTitle">Test Suggestion</h2>
+          <button class="close-button" onclick="closeModal('testModal')">
+            &times;
+          </button>
         </div>
+        <div class="results-container" id="resultsContainer">
+          <div class="loading">Loading results...</div>
+        </div>
+      </div>
     </div>
 
     <div class="modal" id="walkthroughModal">
-        <div class="modal-content walkthrough-content">
-            <div class="modal-header">
-                <h2>How it works</h2>
-                <button class="close-button" onclick="closeModal('walkthroughModal')">&times;</button>
-            </div>
-            <div class="markdown-body">
-                <h3>🎯 How Suggestions Are Generated</h3>
-                <p>We analyze our entire product catalog to create smart, relevant search suggestions based on actual product data.</p>
-                
-                <div class="step-card">
-                    <h4>1. Attribute Analysis</h4>
-                    <p>We extract unique values from key product fields and assign relevance weights:</p>
-                    <ul class="stats-list">
-                        <li><strong>Category</strong> (Weight: 10) - e.g., "Rings", "Earrings"</li>
-                        <li><strong>SubCategory</strong> (Weight: 8) - e.g., "Engagement Rings"</li>
-                        <li><strong>Search Tags</strong> (Weight: 8) - Popular tags from products</li>
-                        <li><strong>Occasion</strong> (Weight: 5) - e.g., "Wedding", "Daily Wear"</li>
-                        <li><strong>Collection</strong> (Weight: 4) - e.g., "Heritage"</li>
-                        <li><strong>Style</strong> (Weight: 4) - e.g., "Solitaire"</li>
-                    </ul>
-                </div>
-
-                <div class="step-card">
-                    <h4>2. Smart Combinations</h4>
-                    <p>We generate combinations to help users find specific items:</p>
-                    <ul>
-                        <li><strong>Occasion + Category</strong> (e.g., "Wedding Rings")</li>
-                        <li><strong>Metal + Category</strong> (e.g., "Gold Earrings")</li>
-                        <li><strong>Style + Category</strong> (e.g., "Solitaire Pendants")</li>
-                    </ul>
-                </div>
-
-                <div class="step-card">
-                    <h4>3. Validation</h4>
-                    <p>Every single suggestion is validated against the database. We only show suggestions that <strong>actually have matching products</strong>. If a combination (like "Silver Nose Pin") has no products, it is automatically discarded.</p>
-                </div>
-
-                <h3>📊 Current Stats</h3>
-                <p><strong>1,268 Total Suggestions Generated:</strong></p>
-                <ul class="stats-list">
-                    <li>10 Categories</li>
-                    <li>11 SubCategories</li>
-                    <li>999 Search Tags</li>
-                    <li>60+ Occasion Combinations</li>
-                    <li>70+ Metal Combinations</li>
-                    <li>100+ Style Combinations</li>
-                    <li>3 Collections</li>
-                </ul>
-            </div>
+      <div class="modal-content walkthrough-content">
+        <div class="modal-header">
+          <h2>How it works</h2>
+          <button class="close-button" onclick="closeModal('walkthroughModal')">
+            &times;
+          </button>
         </div>
+        <div class="markdown-body">
+          <h3>🎯 How Suggestions Are Generated</h3>
+          <p>
+            We analyze our entire product catalog to create smart, relevant
+            search suggestions based on actual product data.
+          </p>
+
+          <div class="step-card">
+            <h4>1. Attribute Analysis</h4>
+            <p>
+              We extract unique values from key product fields and assign
+              relevance weights:
+            </p>
+            <ul class="stats-list">
+              <li>
+                <strong>Category</strong> (Weight: 10) - e.g., "Rings",
+                "Earrings"
+              </li>
+              <li>
+                <strong>SubCategory</strong> (Weight: 8) - e.g., "Engagement
+                Rings"
+              </li>
+              <li>
+                <strong>Search Tags</strong> (Weight: 8) - Popular tags from
+                products
+              </li>
+              <li>
+                <strong>Occasion</strong> (Weight: 5) - e.g., "Wedding", "Daily
+                Wear"
+              </li>
+              <li>
+                <strong>Collection</strong> (Weight: 4) - e.g., "Heritage"
+              </li>
+              <li><strong>Style</strong> (Weight: 4) - e.g., "Solitaire"</li>
+            </ul>
+          </div>
+
+          <div class="step-card">
+            <h4>2. Smart Combinations</h4>
+            <p>We generate combinations to help users find specific items:</p>
+            <ul>
+              <li>
+                <strong>Occasion + Category</strong> (e.g., "Wedding Rings")
+              </li>
+              <li><strong>Metal + Category</strong> (e.g., "Gold Earrings")</li>
+              <li>
+                <strong>Style + Category</strong> (e.g., "Solitaire Pendants")
+              </li>
+            </ul>
+          </div>
+
+          <div class="step-card">
+            <h4>3. Validation</h4>
+            <p>
+              Every single suggestion is validated against the database. We only
+              show suggestions that
+              <strong>actually have matching products</strong>. If a combination
+              (like "Silver Nose Pin") has no products, it is automatically
+              discarded.
+            </p>
+          </div>
+
+          <h3>📊 Current Stats</h3>
+          <p><strong>1,268 Total Suggestions Generated:</strong></p>
+          <ul class="stats-list">
+            <li>10 Categories</li>
+            <li>11 SubCategories</li>
+            <li>999 Search Tags</li>
+            <li>60+ Occasion Combinations</li>
+            <li>70+ Metal Combinations</li>
+            <li>100+ Style Combinations</li>
+            <li>3 Collections</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <style>
-        .info-button {
-            position: absolute;
-            top: 2rem;
-            left: 2rem;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: white;
-            padding: 0.75rem 1.25rem;
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            cursor: pointer;
-            font-weight: 500;
-            transition: all 0.2s;
-            text-decoration: none;
-        }
+      .info-button {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 0.75rem 1.25rem;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        font-weight: 500;
+        transition: all 0.2s;
+        text-decoration: none;
+      }
 
-        .info-button:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: translateY(-2px);
-        }
+      .info-button:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
+      }
 
-        .walkthrough-content {
-            max-width: 800px;
-        }
+      .walkthrough-content {
+        max-width: 800px;
+      }
 
-        .markdown-body {
-            line-height: 1.6;
-            color: #334155;
-        }
+      .markdown-body {
+        line-height: 1.6;
+        color: #334155;
+      }
 
-        .markdown-body h3 {
-            color: #1e293b;
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
-            font-size: 1.25rem;
-        }
+      .markdown-body h3 {
+        color: #1e293b;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+      }
 
-        .step-card {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
-            border-radius: 12px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
+      .step-card {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
 
-        .step-card h4 {
-            color: #0f172a;
-            margin-bottom: 0.75rem;
-            font-size: 1.1rem;
-        }
+      .step-card h4 {
+        color: #0f172a;
+        margin-bottom: 0.75rem;
+        font-size: 1.1rem;
+      }
 
-        .step-card code {
-            display: block;
-            background: #1e293b;
-            color: #e2e8f0;
-            padding: 0.75rem;
-            border-radius: 6px;
-            font-family: monospace;
-            margin-bottom: 1rem;
-            overflow-x: auto;
-        }
+      .step-card code {
+        display: block;
+        background: #1e293b;
+        color: #e2e8f0;
+        padding: 0.75rem;
+        border-radius: 6px;
+        font-family: monospace;
+        margin-bottom: 1rem;
+        overflow-x: auto;
+      }
 
-        .step-card ul, .stats-list {
-            padding-left: 1.5rem;
-            margin-bottom: 0;
-        }
+      .step-card ul,
+      .stats-list {
+        padding-left: 1.5rem;
+        margin-bottom: 0;
+      }
 
-        .step-card li {
-            margin-bottom: 0.25rem;
-        }
+      .step-card li {
+        margin-bottom: 0.25rem;
+      }
     </style>
 
     <script>
-        let suggestions = [];
-        let filteredSuggestions = [];
+      let suggestions = [];
+      let filteredSuggestions = [];
 
-        // Load suggestions from JSON file
-        fetch('suggestions-output.json')
-            .then(response => response.json())
-            .then(data => {
-                suggestions = data;
-                filteredSuggestions = data;
-                initializeUI();
-            })
-            .catch(error => {
-                console.error('Error loading suggestions:', error);
-                document.getElementById('suggestionsGrid').innerHTML = 
-                    '<div class="empty-state"><p>Error loading suggestions. Make sure suggestions-output.json exists.</p></div>';
-            });
+      // Load suggestions from JSON file
+      fetch("suggestions-output.json")
+        .then((response) => response.json())
+        .then((data) => {
+          suggestions = data;
+          filteredSuggestions = data;
+          initializeUI();
+        })
+        .catch((error) => {
+          console.error("Error loading suggestions:", error);
+          document.getElementById("suggestionsGrid").innerHTML =
+            '<div class="empty-state"><p>Error loading suggestions. Make sure suggestions-output.json exists.</p></div>';
+        });
 
-        function initializeUI() {
-            renderStats();
-            populateTypeFilter();
-            renderSuggestions();
-            setupEventListeners();
-        }
+      function initializeUI() {
+        renderStats();
+        populateTypeFilter();
+        renderSuggestions();
+        setupEventListeners();
+      }
 
-        function renderStats() {
-            const stats = {
-                total: suggestions.length,
-                category: suggestions.filter(s => s.type === 'category').length,
-                subcategory: suggestions.filter(s => s.type === 'subcategory').length,
-                occasion_category: suggestions.filter(s => s.type === 'occasion_category').length,
-                metal_category: suggestions.filter(s => s.type === 'metal_category').length,
-                style_category: suggestions.filter(s => s.type === 'style_category').length,
-                collection: suggestions.filter(s => s.type === 'collection').length,
-                search_tag: suggestions.filter(s => s.type === 'search_tag').length,
-                marketing: suggestions.filter(s => s.type === 'marketing').length,
-            };
+      function renderStats() {
+        // Count all suggestion types dynamically
+        const typeCounts = {};
+        suggestions.forEach((s) => {
+          typeCounts[s.type] = (typeCounts[s.type] || 0) + 1;
+        });
 
-            const statsHTML = `
+        // Define display labels for each type
+        const typeLabels = {
+          category: "Categories",
+          occasion_category: "Occasion + Category",
+          style_category: "Style + Category",
+          subcategory_category: "SubCategory + Category",
+          collection: "Collections",
+          search_tag: "Search Tags",
+          displayname: "Displaynames",
+        };
+
+        // Build stats HTML dynamically
+        let statsHTML = `
                 <div class="stat-card">
                     <h3>Total Suggestions</h3>
-                    <div class="value">${stats.total}</div>
-                </div>
-                <div class="stat-card">
-                    <h3>Categories</h3>
-                    <div class="value">${stats.category}</div>
-                </div>
-                <div class="stat-card">
-                    <h3>SubCategories</h3>
-                    <div class="value">${stats.subcategory}</div>
-                </div>
-                <div class="stat-card">
-                    <h3>Search Tags</h3>
-                    <div class="value">${stats.search_tag}</div>
-                </div>
-                <div class="stat-card">
-                    <h3>Occasion + Category</h3>
-                    <div class="value">${stats.occasion_category}</div>
-                </div>
-                <div class="stat-card">
-                    <h3>Metal + Category</h3>
-                    <div class="value">${stats.metal_category}</div>
-                </div>
-                <div class="stat-card">
-                    <h3>Style + Category</h3>
-                    <div class="value">${stats.style_category}</div>
-                </div>
-                <div class="stat-card">
-                    <h3>Collections</h3>
-                    <div class="value">${stats.collection}</div>
-                </div>
-                <div class="stat-card">
-                    <h3>Marketing</h3>
-                    <div class="value">${stats.marketing}</div>
+                    <div class="value">${suggestions.length}</div>
                 </div>
             `;
 
-            document.getElementById('stats').innerHTML = statsHTML;
+        // Sort types by count (descending) for better visibility
+        const sortedTypes = Object.entries(typeCounts)
+          .sort((a, b) => b[1] - a[1])
+          .filter(([type]) => type !== "marketing"); // Filter out marketing
+
+        sortedTypes.forEach(([type, count]) => {
+          const label =
+            typeLabels[type] ||
+            type.replace(/_/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
+          statsHTML += `
+                    <div class="stat-card">
+                        <h3>${label}</h3>
+                        <div class="value">${count}</div>
+                    </div>
+                `;
+        });
+
+        document.getElementById("stats").innerHTML = statsHTML;
+      }
+
+      function populateTypeFilter() {
+        const types = [...new Set(suggestions.map((s) => s.type))].sort();
+        const select = document.getElementById("typeFilter");
+
+        types.forEach((type) => {
+          const option = document.createElement("option");
+          option.value = type;
+          option.textContent = type
+            .replace(/_/g, " ")
+            .replace(/\b\w/g, (l) => l.toUpperCase());
+          select.appendChild(option);
+        });
+      }
+
+      function renderSuggestions() {
+        const grid = document.getElementById("suggestionsGrid");
+
+        if (filteredSuggestions.length === 0) {
+          grid.innerHTML =
+            '<div class="empty-state"><p>No suggestions match your filters</p></div>';
+          return;
         }
 
-        function populateTypeFilter() {
-            const types = [...new Set(suggestions.map(s => s.type))].sort();
-            const select = document.getElementById('typeFilter');
-            
-            types.forEach(type => {
-                const option = document.createElement('option');
-                option.value = type;
-                option.textContent = type.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-                select.appendChild(option);
-            });
-        }
-
-        function renderSuggestions() {
-            const grid = document.getElementById('suggestionsGrid');
-            
-            if (filteredSuggestions.length === 0) {
-                grid.innerHTML = '<div class="empty-state"><p>No suggestions match your filters</p></div>';
-                return;
-            }
-
-            grid.innerHTML = filteredSuggestions.map(suggestion => `
-                <div class="suggestion-card" onclick="testSuggestion('${suggestion.term.replace(/'/g, "\\'")}', '${suggestion.target}')">
+        grid.innerHTML = filteredSuggestions
+          .map(
+            (suggestion) => `
+                <div class="suggestion-card" onclick="testSuggestion('${suggestion.term.replace(
+                  /'/g,
+                  "\\'"
+                )}', '${suggestion.target}')">
                     <div class="suggestion-term">${suggestion.term}</div>
                     <div class="suggestion-meta">
-                        <span class="badge badge-${suggestion.type}">${suggestion.type.replace(/_/g, ' ')}</span>
-                        <span class="badge boost-badge">Boost: ${suggestion.boost}</span>
+                        <span class="badge badge-${
+                          suggestion.type
+                        }">${suggestion.type.replace(/_/g, " ")}</span>
+                        <span class="badge boost-badge">Boost: ${
+                          suggestion.boost
+                        }</span>
                     </div>
                     <div class="suggestion-target">${suggestion.target}</div>
                     <button class="test-button">Test in Typesense →</button>
                 </div>
-            `).join('');
-        }
+            `
+          )
+          .join("");
+      }
 
-        function setupEventListeners() {
-            document.getElementById('typeFilter').addEventListener('change', filterSuggestions);
-            document.getElementById('searchFilter').addEventListener('input', filterSuggestions);
-        }
+      function setupEventListeners() {
+        document
+          .getElementById("typeFilter")
+          .addEventListener("change", filterSuggestions);
+        document
+          .getElementById("searchFilter")
+          .addEventListener("input", filterSuggestions);
+      }
 
-        function filterSuggestions() {
-            const typeFilter = document.getElementById('typeFilter').value;
-            const searchFilter = document.getElementById('searchFilter').value.toLowerCase();
+      function filterSuggestions() {
+        const typeFilter = document.getElementById("typeFilter").value;
+        const searchFilter = document
+          .getElementById("searchFilter")
+          .value.toLowerCase();
 
-            filteredSuggestions = suggestions.filter(s => {
-                const matchesType = typeFilter === 'all' || s.type === typeFilter;
-                const matchesSearch = s.term.toLowerCase().includes(searchFilter);
-                return matchesType && matchesSearch;
-            });
+        filteredSuggestions = suggestions.filter((s) => {
+          const matchesType = typeFilter === "all" || s.type === typeFilter;
+          const matchesSearch = s.term.toLowerCase().includes(searchFilter);
+          return matchesType && matchesSearch;
+        });
 
-            renderSuggestions();
-        }
+        renderSuggestions();
+      }
 
-        async function testSuggestion(term, target) {
-            const modal = document.getElementById('testModal');
-            const modalTitle = document.getElementById('modalTitle');
-            const resultsContainer = document.getElementById('resultsContainer');
+      async function testSuggestion(term, target) {
+        const modal = document.getElementById("testModal");
+        const modalTitle = document.getElementById("modalTitle");
+        const resultsContainer = document.getElementById("resultsContainer");
 
-            modalTitle.textContent = `Testing: "${term}"`;
-            modal.style.display = 'block';
-            resultsContainer.innerHTML = '<div class="loading">Searching Typesense...</div>';
+        modalTitle.textContent = `Testing: "${term}"`;
+        modal.style.display = "block";
+        resultsContainer.innerHTML =
+          '<div class="loading">Searching Typesense...</div>';
 
-            try {
-                // Parse the target to create filter_by
-                // Handle potential commas in values by splitting carefully
-                // This simple split might still fail for complex values, but works for "key:value,key2:value2"
-                const filterParts = target.split(',').map(part => {
-                    const firstColonIndex = part.indexOf(':');
-                    if (firstColonIndex === -1) return null;
-                    
-                    const key = part.substring(0, firstColonIndex).trim();
-                    const value = part.substring(firstColonIndex + 1).trim();
-                    
-                    // Use := for exact match and quote the value
-                    return `${key}:='${value}'`;
-                }).filter(Boolean);
-                
-                const filterBy = filterParts.join(' && ');
-                
-                console.log('Testing suggestion:', term);
-                console.log('Target:', target);
-                console.log('Generated filter_by:', filterBy);
+        try {
+          // Parse the target to create filter_by
+          // Handle potential commas in values by splitting carefully
+          // This simple split might still fail for complex values, but works for "key:value,key2:value2"
+          const filterParts = target
+            .split(",")
+            .map((part) => {
+              const firstColonIndex = part.indexOf(":");
+              if (firstColonIndex === -1) return null;
 
-                const queryBody = {
-                    q: '*',
-                    query_by: 'displayname,category,searchTags,subCategory,occasion,collection,style',
-                    query_by_weights: '10,10,8,8,5,4,4',
-                    filter_by: filterBy,
-                    page: 1,
-                    per_page: 10,
-                    group_by: 'pId',
-                    group_limit: 1
-                };
-                
-                console.log('Query body:', queryBody);
+              const key = part.substring(0, firstColonIndex).trim();
+              const value = part.substring(firstColonIndex + 1).trim();
 
-                const response = await fetch('https://5eyz89cwmnlvs6utp.a1.typesense.net/collections/consumer-products/documents/search', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-TYPESENSE-API-KEY': 'h5y5q7TX5Ln5586E1xTPW5GQ5hAp9eTI'
-                    },
-                    body: JSON.stringify(queryBody)
-                });
+              // Use := for exact match and quote the value
+              return `${key}:='${value}'`;
+            })
+            .filter(Boolean);
 
-                const data = await response.json();
-                console.log('Response:', data);
+          const filterBy = filterParts.join(" && ");
 
-                if (data.hits && data.hits.length > 0) {
-                    resultsContainer.innerHTML = `
+          console.log("Testing suggestion:", term);
+          console.log("Target:", target);
+          console.log("Generated filter_by:", filterBy);
+
+          const queryBody = {
+            q: "*",
+            query_by:
+              "displayname,category,searchTags,subCategory,occasion,collection,style",
+            query_by_weights: "10,10,8,8,5,4,4",
+            filter_by: filterBy,
+            page: 1,
+            per_page: 10,
+            group_by: "pId",
+            group_limit: 1,
+          };
+
+          console.log("Query body:", queryBody);
+
+          const response = await fetch(
+            "https://5eyz89cwmnlvs6utp.a1.typesense.net/collections/consumer-products/documents/search",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "X-TYPESENSE-API-KEY": "h5y5q7TX5Ln5586E1xTPW5GQ5hAp9eTI",
+              },
+              body: JSON.stringify(queryBody),
+            }
+          );
+
+          const data = await response.json();
+          console.log("Response:", data);
+
+          if (data.hits && data.hits.length > 0) {
+            resultsContainer.innerHTML = `
                         <p style="margin-bottom: 1rem; color: #059669; font-weight: 600;">
                             ✓ Found ${data.found} products
                         </p>
-                        ${data.hits.map(hit => {
+                        ${data.hits
+                          .map((hit) => {
                             const doc = hit.document;
                             return `
                                 <div class="result-item">
-                                    <div class="result-name">${doc.displayname || 'Unnamed Product'}</div>
+                                    <div class="result-name">${
+                                      doc.displayname || "Unnamed Product"
+                                    }</div>
                                     <div class="result-details">
-                                        ${doc.category ? `Category: ${doc.category}` : ''}
-                                        ${doc.subCategory ? ` • SubCategory: ${doc.subCategory}` : ''}
-                                        ${doc.metalType ? ` • Metal: ${doc.metalType}` : ''}
-                                        ${doc.style ? ` • Style: ${doc.style}` : ''}
-                                        ${doc.occasion ? ` • Occasion: ${doc.occasion}` : ''}
+                                        ${
+                                          doc.category
+                                            ? `Category: ${doc.category}`
+                                            : ""
+                                        }
+                                        ${
+                                          doc.subCategory
+                                            ? ` • SubCategory: ${doc.subCategory}`
+                                            : ""
+                                        }
+                                        ${
+                                          doc.metalType
+                                            ? ` • Metal: ${doc.metalType}`
+                                            : ""
+                                        }
+                                        ${
+                                          doc.style
+                                            ? ` • Style: ${doc.style}`
+                                            : ""
+                                        }
+                                        ${
+                                          doc.occasion
+                                            ? ` • Occasion: ${doc.occasion}`
+                                            : ""
+                                        }
                                     </div>
                                 </div>
                             `;
-                        }).join('')}
+                          })
+                          .join("")}
                     `;
-                } else {
-                    resultsContainer.innerHTML = `
+          } else {
+            resultsContainer.innerHTML = `
                         <div class="no-results">
                             <p>No products found for this suggestion</p>
                             <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #94a3b8;">Filter: ${filterBy}</p>
                         </div>
                     `;
-                }
-            } catch (error) {
-                console.error('Error testing suggestion:', error);
-                resultsContainer.innerHTML = `<div class="no-results">Error: ${error.message}</div>`;
-            }
+          }
+        } catch (error) {
+          console.error("Error testing suggestion:", error);
+          resultsContainer.innerHTML = `<div class="no-results">Error: ${error.message}</div>`;
         }
+      }
 
-        function openWalkthrough() {
-            document.getElementById('walkthroughModal').style.display = 'block';
-        }
+      function openWalkthrough() {
+        document.getElementById("walkthroughModal").style.display = "block";
+      }
 
-        function closeModal(modalId) {
-            document.getElementById(modalId).style.display = 'none';
-        }
+      function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+      }
 
-        // Close modal on outside click
-        window.onclick = function(event) {
-            if (event.target.classList.contains('modal')) {
-                event.target.style.display = 'none';
-            }
+      // Close modal on outside click
+      window.onclick = function (event) {
+        if (event.target.classList.contains("modal")) {
+          event.target.style.display = "none";
         }
+      };
     </script>
-</body>
+  </body>
 </html>
