@@ -8,8 +8,11 @@ export interface Suggestion {
   target?: string;
 }
 
+import { AttributeMappings } from "./resolveMappings";
+
 export async function generateSuggestions(
-  attributes: ExtractedAttributes
+  attributes: ExtractedAttributes,
+  mappings: AttributeMappings
 ): Promise<Suggestion[]> {
   console.log("Generating suggestions with faceted validation...");
 
@@ -39,11 +42,12 @@ export async function generateSuggestions(
   console.log("Validating category suggestions...");
   for (const category of attributes.categories) {
     if (await hasProducts(`category:=${category}`)) {
+      const cId = mappings.categories.get(category);
       suggestions.push({
         term: category,
         type: "category",
         boost: 10,
-        target: `category:${category}`,
+        target: cId ? `cId:${cId}` : `category:${category}`,
       });
     }
   }
@@ -53,11 +57,17 @@ export async function generateSuggestions(
   for (const occasion of attributes.occasions) {
     for (const category of attributes.categories) {
       if (await hasProducts(`occasion:=${occasion} && category:=${category}`)) {
+        const oId = mappings.occasions.get(occasion);
+        const cId = mappings.categories.get(category);
+        const occasionPart = oId
+          ? `oId:${oId},occasion:${occasion}`
+          : `occasion:${occasion}`;
+        const categoryPart = cId ? `cId:${cId}` : `category:${category}`;
         suggestions.push({
           term: `${occasion} ${category}`,
           type: "occasion_category",
           boost: 5,
-          target: `occasion:${occasion},category:${category}`,
+          target: `${occasionPart},${categoryPart}`,
         });
       }
     }
@@ -68,32 +78,35 @@ export async function generateSuggestions(
   for (const style of attributes.styles) {
     for (const category of attributes.categories) {
       if (await hasProducts(`style:=${style} && category:=${category}`)) {
+        const styleId = mappings.styles.get(style);
+        const cId = mappings.categories.get(category);
+        const stylePart = styleId
+          ? `styleId:${styleId},style:${style}`
+          : `style:${style}`;
+        const categoryPart = cId ? `cId:${cId}` : `category:${category}`;
         suggestions.push({
           term: `${style} ${category}`,
           type: "style_category",
           boost: 5,
-          target: `style:${style},category:${category}`,
+          target: `${stylePart},${categoryPart}`,
         });
       }
     }
   }
 
-  // 4. SubCategory + Category (e.g., "Diamond Rings")
-  console.log("Validating subcategory + category suggestions...");
-  for (const subCategory of attributes.subCategories) {
-    for (const category of attributes.categories) {
-      if (
-        await hasProducts(
-          `subCategory:=${subCategory} && category:=${category}`
-        )
-      ) {
-        suggestions.push({
-          term: `${subCategory} ${category}`,
-          type: "subcategory_category",
-          boost: 8,
-          target: `subCategory:${subCategory},category:${category}`,
-        });
-      }
+  // 4. Style only (e.g., "Solitaire", "Eternal")
+  console.log("Validating style suggestions...");
+  for (const style of attributes.styles) {
+    if (await hasProducts(`style:=${style}`)) {
+      const styleId = mappings.styles.get(style);
+      suggestions.push({
+        term: style,
+        type: "style",
+        boost: 5,
+        target: styleId
+          ? `styleId:${styleId},style:${style}`
+          : `style:${style}`,
+      });
     }
   }
 
@@ -101,11 +114,14 @@ export async function generateSuggestions(
   console.log("Validating collection suggestions...");
   for (const collection of attributes.collections) {
     if (await hasProducts(`collection:=${collection}`)) {
+      const collectionSlug = mappings.collections.get(collection);
       suggestions.push({
         term: `${collection} Collection`,
         type: "collection",
         boost: 4,
-        target: `collection:${collection}`,
+        target: collectionSlug
+          ? `collectionSlug:${collectionSlug}`
+          : `collection:${collection}`,
       });
     }
   }
@@ -126,7 +142,7 @@ export async function generateSuggestions(
   // 7. Displaynames (product names as suggestions)
   console.log("Fetching displayname suggestions...");
   try {
-    const uniqueDisplaynames = new Set<string>();
+    const uniqueDisplaynames = new Map<string, string>();
     let page = 1;
     const perPage = 250;
 
@@ -156,14 +172,23 @@ export async function generateSuggestions(
       for (const group of groupedHits) {
         if (group.hits && Array.isArray(group.hits)) {
           for (const hit of group.hits) {
-            const document = hit.document as { displayname?: string };
+            const document = hit.document as {
+              displayname?: string;
+              slug?: string;
+            };
             const displayname = document?.displayname;
+            const slug = document?.slug;
             if (
               displayname &&
               typeof displayname === "string" &&
               displayname.trim()
             ) {
-              uniqueDisplaynames.add(displayname.trim());
+              // Store displayname -> slug mapping if slug exists
+              // We can't use a simple Set<string> anymore if we want to keep the slug.
+              // Let's store objects in a Map to ensure uniqueness by displayname
+              if (!uniqueDisplaynames.has(displayname.trim())) {
+                uniqueDisplaynames.set(displayname.trim(), slug || "");
+              }
             }
           }
         }
@@ -185,13 +210,12 @@ export async function generateSuggestions(
     }
 
     // Add all unique displaynames as suggestions
-    for (const displayname of Array.from(uniqueDisplaynames)) {
-      // For displaynames, we'll search by the displayname itself
+    for (const [displayname, slug] of uniqueDisplaynames.entries()) {
       suggestions.push({
         term: displayname,
         type: "displayname",
-        boost: 10,
-        // No target filter needed - the search will match by displayname
+        boost: 9,
+        target: slug ? `slug:${slug}` : undefined,
       });
     }
     console.log(`Added ${uniqueDisplaynames.size} displayname suggestions`);

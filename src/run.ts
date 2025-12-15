@@ -1,5 +1,6 @@
 import { extractAttributes } from './extractAttributes';
 import { generateSuggestions } from './generateSuggestions';
+import { resolveMappings } from './resolveMappings';
 import { syncToTypesense } from './syncToTypesense';
 import manualOverrides from './manualOverrides.json';
 import * as fs from 'fs';
@@ -99,8 +100,12 @@ async function runGeneration() {
   const attributes = await extractAttributes();
   console.log('');
 
+  // Step 1.5: Resolve IDs and slugs for attributes
+  const mappings = await resolveMappings(attributes);
+  console.log('');
+
   // Step 2: Generate suggestions with faceted validation (no full product loading!)
-  const generatedSuggestions = await generateSuggestions(attributes);
+  const generatedSuggestions = await generateSuggestions(attributes, mappings);
   console.log('');
 
   // Step 3: Combine with manual overrides
