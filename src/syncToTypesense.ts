@@ -2,19 +2,20 @@ import client from './config/typesense';
 import { Suggestion } from './generateSuggestions';
 import manualOverrides from './manualOverrides.json';
 
-const COLLECTION_NAME = 'search_suggestions';
-
-export async function syncToTypesense(suggestions: Suggestion[]): Promise<void> {
-  console.log('Syncing suggestions to Typesense...');
+export async function syncToTypesense(
+  suggestions: Suggestion[],
+  outputCollectionName: string
+): Promise<void> {
+  console.log(`Syncing suggestions to Typesense collection '${outputCollectionName}'...`);
 
   try {
     // Ensure the collection exists with the correct schema
-    await ensureCollection();
+    await ensureCollection(outputCollectionName);
 
     // Wipe existing data
     console.log('Clearing existing suggestions...');
     try {
-      await client.collections(COLLECTION_NAME).documents().delete({ filter_by: 'type:!=null' });
+      await client.collections(outputCollectionName).documents().delete({ filter_by: 'type:!=null' });
     } catch (error: any) {
       if (error.httpStatus !== 404) {
         throw error;
@@ -38,7 +39,7 @@ export async function syncToTypesense(suggestions: Suggestion[]): Promise<void> 
         target: suggestion.target || '',
       }));
 
-      await client.collections(COLLECTION_NAME).documents().import(documents, {
+      await client.collections(outputCollectionName).documents().import(documents, {
         action: 'create',
       });
 
@@ -52,17 +53,17 @@ export async function syncToTypesense(suggestions: Suggestion[]): Promise<void> 
   }
 }
 
-async function ensureCollection(): Promise<void> {
+async function ensureCollection(collectionName: string): Promise<void> {
   try {
     // Check if collection exists
-    await client.collections(COLLECTION_NAME).retrieve();
-    console.log(`Collection '${COLLECTION_NAME}' already exists`);
+    await client.collections(collectionName).retrieve();
+    console.log(`Collection '${collectionName}' already exists`);
   } catch (error: any) {
     if (error.httpStatus === 404) {
       // Create the collection
-      console.log(`Creating collection '${COLLECTION_NAME}'...`);
+      console.log(`Creating collection '${collectionName}'...`);
       await client.collections().create({
-        name: COLLECTION_NAME,
+        name: collectionName,
         fields: [
           { name: 'term', type: 'string' },
           { name: 'type', type: 'string', facet: true },
@@ -71,7 +72,7 @@ async function ensureCollection(): Promise<void> {
         ],
         default_sorting_field: 'boost',
       });
-      console.log(`✓ Collection '${COLLECTION_NAME}' created`);
+      console.log(`✓ Collection '${collectionName}' created`);
     } else {
       throw error;
     }

@@ -4,7 +4,8 @@ A Node.js + TypeScript service that generates search suggestions from product da
 
 ## Features
 
-- **Extracts unique attributes** via efficient faceting from the "consumer-products" collection
+- **Extracts unique attributes** via efficient faceting from any product collection
+- **Supports multiple collections** - process consumer-products, store-products, or any custom collection
 - **Validates combinations** using faceted queries (no full product loading!)
 - **Resolves IDs** for categories, occasions, styles, subcategories, and collections
 - **Generates dynamic suggestions** based on real product combinations
@@ -48,7 +49,7 @@ Each suggestion includes a `target` field that contains filter parameters for na
 ## Prerequisites
 
 - Node.js (v16 or higher)
-- Access to a Typesense instance with a "consumer-products" collection
+- Access to a Typesense instance with product collections (e.g., "consumer-products", "store-products")
 
 ## Installation
 
@@ -69,14 +70,30 @@ TYPESENSE_API_KEY=your_api_key_here
 
 ## Usage
 
+The service supports multiple product collections. By default, it processes `consumer-products`, but you can specify any collection using the `--collection` flag.
+
 ### Step 1: Generate Suggestions
 
 ```bash
-# Generate suggestions and output to suggestions-output.json
+# Generate suggestions for default collection (consumer-products)
 npm run generate
+
+# Generate suggestions for consumer-products (explicit)
+npm run generate:consumer
+
+# Generate suggestions for store-products
+npm run generate:store
+
+# Generate for a custom collection
+npm run generate -- --collection your-collection-name
 ```
 
-This will create `suggestions-output.json` in the project root. Review this file to verify the suggestions before syncing.
+This will create a collection-specific output file:
+- `suggestions-output-consumer-products.json` (default)
+- `suggestions-output-store-products.json`
+- `suggestions-output-{collection-name}.json`
+
+Review the output file to verify the suggestions before syncing.
 
 ### Step 2: View Suggestions in Browser
 
@@ -85,14 +102,33 @@ This will create `suggestions-output.json` in the project root. Review this file
 npm run dev
 ```
 
-This will start a server at `http://localhost:8081` and open `index.html` to display your suggestions.
+This will start a server at `http://localhost:8081` and open `index.html` to display your suggestions. The server will look for the default output file (`suggestions-output-consumer-products.json`). If you want to view a different collection's suggestions, make sure to generate them first or rename the file.
 
 ### Step 3: Sync to Typesense
 
 ```bash
-# Sync suggestions to Typesense
+# Sync suggestions for default collection (consumer-products)
 npm run sync
+
+# Sync suggestions for consumer-products (explicit)
+npm run sync:consumer
+
+# Sync suggestions for store-products
+npm run sync:store
+
+# Sync all collections at once
+npm run sync:all
+
+# Sync a custom collection
+npm run sync -- --collection your-collection-name
 ```
+
+Each collection syncs to its own Typesense collection:
+- `consumer-products` → `search_suggestions_consumer_products`
+- `store-products` → `store_search_suggestions` (custom mapping)
+- `your-collection-name` → `search_suggestions_your_collection_name` (auto-generated)
+
+**Note:** Custom output collection names can be configured in `src/config/collections.ts` via the `CUSTOM_OUTPUT_COLLECTIONS` mapping.
 
 ## How It Works
 
@@ -140,8 +176,8 @@ Writes all suggestions to `suggestions-output.json` for review.
 
 ### 5. Sync to Typesense (with `--sync` flag)
 
-- Creates the "search_suggestions" collection if it doesn't exist
-- Clears existing suggestions
+- Creates a collection-specific "search_suggestions_{collection_name}" collection if it doesn't exist
+- Clears existing suggestions for that collection
 - Imports all generated and manual suggestions in batches of 100
 
 ## Project Structure
@@ -155,7 +191,8 @@ suggestion-service/
 ├── suggestions-output.json       # Generated suggestions (gitignored)
 ├── src/
 │   ├── config/
-│   │   └── typesense.ts          # Typesense client configuration
+│   │   ├── typesense.ts          # Typesense client configuration
+│   │   └── collections.ts         # Collection configuration and custom mappings
 │   ├── extractAttributes.ts      # Extract unique attribute values via faceting
 │   ├── resolveMappings.ts        # Resolve IDs for attributes
 │   ├── generateSuggestions.ts    # Generate suggestions with validation
@@ -177,6 +214,19 @@ Each suggestion has the following fields:
 | `target` | string | Filter/navigation parameters                        |
 
 ## Customization
+
+### Custom Output Collection Names
+
+You can customize the Typesense collection name where suggestions are stored by editing `src/config/collections.ts`:
+
+```typescript
+const CUSTOM_OUTPUT_COLLECTIONS: Record<string, string> = {
+  'store-products': 'store_search_suggestions',
+  // Add more custom mappings here
+};
+```
+
+If a source collection is not in this mapping, it will use the auto-generated name: `search_suggestions_{collection_name}`.
 
 ### Modifying Boost Values
 
@@ -266,13 +316,30 @@ Example: `slug:eternal-love-ring`
 
 ## Scripts
 
-| Command            | Description                            |
-| ------------------ | -------------------------------------- |
-| `npm run generate` | Generate suggestions to JSON file      |
-| `npm run dev`      | Start local server to view suggestions |
-| `npm run sync`     | Generate and sync to Typesense         |
-| `npm run build`    | Build TypeScript to JavaScript         |
-| `npm start`        | Run built JavaScript                   |
+| Command                  | Description                                          |
+| ------------------------ | ---------------------------------------------------- |
+| `npm run generate`       | Generate suggestions for default collection          |
+| `npm run generate:consumer` | Generate suggestions for consumer-products       |
+| `npm run generate:store` | Generate suggestions for store-products             |
+| `npm run dev`            | Start local server to view suggestions              |
+| `npm run sync`           | Generate and sync default collection to Typesense   |
+| `npm run sync:consumer`  | Generate and sync consumer-products to Typesense     |
+| `npm run sync:store`     | Generate and sync store-products to Typesense        |
+| `npm run sync:all`       | Generate and sync all collections to Typesense       |
+| `npm run build`          | Build TypeScript to JavaScript                       |
+| `npm start`              | Run built JavaScript                                 |
+
+### Using Custom Collections
+
+You can process any collection by passing the `--collection` flag:
+
+```bash
+# Generate for a custom collection
+npm run generate -- --collection your-collection-name
+
+# Sync a custom collection
+npm run sync -- --collection your-collection-name
+```
 
 ## License
 

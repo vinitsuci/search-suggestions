@@ -2,6 +2,7 @@ import { extractAttributes } from './extractAttributes';
 import { generateSuggestions } from './generateSuggestions';
 import { resolveMappings } from './resolveMappings';
 import { syncToTypesense } from './syncToTypesense';
+import { getCollectionConfig } from './config/collections';
 import manualOverrides from './manualOverrides.json';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -62,28 +63,40 @@ async function main() {
   const args = process.argv.slice(2);
   const mode = args.includes('--serve') ? 'serve' : args.includes('--sync') ? 'sync' : 'generate';
 
-  console.log(`=== Starting Suggestion Service (${mode} mode) ===\n`);
+  // Extract collection name from args
+  const collectionIndex = args.indexOf('--collection');
+  const sourceCollection = collectionIndex !== -1 && args[collectionIndex + 1] 
+    ? args[collectionIndex + 1] 
+    : 'consumer-products'; // default
+
+  const config = getCollectionConfig(sourceCollection);
+
+  console.log(`=== Starting Suggestion Service (${mode} mode) ===`);
+  console.log(`Source Collection: ${config.sourceCollection}`);
+  console.log(`Output Collection: ${config.outputCollection}`);
+  console.log(`Output File: ${config.outputFile}\n`);
 
   try {
     if (mode === 'serve') {
       // Check if suggestions exist
-      const outputPath = path.join(__dirname, '..', 'suggestions-output.json');
+      const outputPath = path.join(__dirname, '..', config.outputFile);
       if (!fs.existsSync(outputPath)) {
-        console.log('⚠️ suggestions-output.json not found. Generating first...');
-        await runGeneration();
+        console.log(`⚠️ ${config.outputFile} not found. Generating first...`);
+        await runGeneration(config);
       }
       startServer();
     } else if (mode === 'sync') {
-      const suggestions = await runGeneration();
+      const suggestions = await runGeneration(config);
       console.log('Syncing to Typesense...');
-      await syncToTypesense(suggestions);
+      await syncToTypesense(suggestions, config.outputCollection);
       console.log('');
       console.log('=== Suggestion Service Completed Successfully ===');
       process.exit(0);
     } else {
       // Generate mode
-      await runGeneration();
+      await runGeneration(config);
       console.log('=== Suggestions Generated Successfully ===');
+      console.log(`💡 Review suggestions in: ${config.outputFile}`);
       console.log('💡 Run "npm run dev" to view suggestions in the UI');
       console.log('💡 Run "npm run sync" to push to Typesense\n');
       process.exit(0);
@@ -95,17 +108,17 @@ async function main() {
   }
 }
 
-async function runGeneration() {
+async function runGeneration(config: { sourceCollection: string; outputCollection: string; outputFile: string }) {
   // Step 1: Extract unique attributes via faceting (efficient)
-  const attributes = await extractAttributes();
+  const attributes = await extractAttributes(config.sourceCollection);
   console.log('');
 
   // Step 1.5: Resolve IDs and slugs for attributes
-  const mappings = await resolveMappings(attributes);
+  const mappings = await resolveMappings(attributes, config.sourceCollection);
   console.log('');
 
   // Step 2: Generate suggestions with faceted validation (no full product loading!)
-  const generatedSuggestions = await generateSuggestions(attributes, mappings);
+  const generatedSuggestions = await generateSuggestions(attributes, mappings, config.sourceCollection);
   console.log('');
 
   // Step 3: Combine with manual overrides
@@ -113,7 +126,7 @@ async function runGeneration() {
   console.log(`Total suggestions (including manual overrides): ${allSuggestions.length}\n`);
 
   // Step 4: Write to output file for review
-  const outputPath = path.join(__dirname, '..', 'suggestions-output.json');
+  const outputPath = path.join(__dirname, '..', config.outputFile);
   fs.writeFileSync(outputPath, JSON.stringify(allSuggestions, null, 2));
   console.log(`✓ Suggestions written to: ${outputPath}\n`);
 

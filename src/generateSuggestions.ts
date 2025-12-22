@@ -12,9 +12,10 @@ import { AttributeMappings } from "./resolveMappings";
 
 export async function generateSuggestions(
   attributes: ExtractedAttributes,
-  mappings: AttributeMappings
+  mappings: AttributeMappings,
+  collectionName: string
 ): Promise<Suggestion[]> {
-  console.log("Generating suggestions with faceted validation...");
+  console.log(`Generating suggestions with faceted validation for '${collectionName}'...`);
 
   const suggestions: Suggestion[] = [];
 
@@ -22,7 +23,7 @@ export async function generateSuggestions(
   async function hasProducts(filterBy: string): Promise<boolean> {
     try {
       const result = await client
-        .collections("consumer-products")
+        .collections(collectionName)
         .documents()
         .search({
           q: "*",
@@ -148,7 +149,7 @@ export async function generateSuggestions(
 
     while (true) {
       const displaynameResults = await client
-        .collections("consumer-products")
+        .collections(collectionName)
         .documents()
         .search({
           q: "*",
