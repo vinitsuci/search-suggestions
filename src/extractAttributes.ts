@@ -10,12 +10,12 @@ export interface ExtractedAttributes {
   collections: string[];
 }
 
-export async function extractAttributes(): Promise<ExtractedAttributes> {
-  console.log('Extracting unique attributes via faceting...');
+export async function extractAttributes(collectionName: string): Promise<ExtractedAttributes> {
+  console.log(`Extracting unique attributes via faceting from '${collectionName}'...`);
 
   try {
     const searchResults = await client
-      .collections('consumer-products')
+      .collections(collectionName)
       .documents()
       .search({
         q: '*',

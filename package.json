@@ -8,7 +8,12 @@
     "start": "node dist/run.js",
     "dev": "ts-node src/run.ts --serve",
     "generate": "ts-node src/run.ts --generate",
-    "sync": "ts-node src/run.ts --sync"
+    "generate:consumer": "ts-node src/run.ts --generate --collection consumer-products",
+    "generate:store": "ts-node src/run.ts --generate --collection store-products",
+    "sync": "ts-node src/run.ts --sync",
+    "sync:consumer": "ts-node src/run.ts --sync --collection consumer-products",
+    "sync:store": "ts-node src/run.ts --sync --collection store-products",
+    "sync:all": "npm run sync:consumer && npm run sync:store"
   },
   "keywords": ["typesense", "search", "suggestions"],
   "author": "",

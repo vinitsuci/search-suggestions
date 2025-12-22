@@ -10,9 +10,10 @@ export interface AttributeMappings {
 }
 
 export async function resolveMappings(
-  attributes: ExtractedAttributes
+  attributes: ExtractedAttributes,
+  collectionName: string
 ): Promise<AttributeMappings> {
-  console.log("Resolving attribute IDs and slugs...");
+  console.log(`Resolving attribute IDs and slugs for '${collectionName}'...`);
 
   const mappings: AttributeMappings = {
     categories: new Map(),
@@ -26,7 +27,7 @@ export async function resolveMappings(
   // We can use group_by to get one document per category and extract cId
   try {
     const results = await client
-      .collections("consumer-products")
+      .collections(collectionName)
       .documents()
       .search({
         q: "*",
@@ -54,7 +55,7 @@ export async function resolveMappings(
   // 2. Resolve Collections (collectionSlug)
   try {
     const results = await client
-      .collections("consumer-products")
+      .collections(collectionName)
       .documents()
       .search({
         q: "*",
@@ -84,7 +85,7 @@ export async function resolveMappings(
   for (const subCat of attributes.subCategories) {
     try {
       const result = await client
-        .collections("consumer-products")
+        .collections(collectionName)
         .documents()
         .search({
           q: "*",
@@ -123,7 +124,7 @@ export async function resolveMappings(
   for (const occasion of attributes.occasions) {
     try {
       const result = await client
-        .collections("consumer-products")
+        .collections(collectionName)
         .documents()
         .search({
           q: "*",
@@ -160,7 +161,7 @@ export async function resolveMappings(
   for (const style of attributes.styles) {
     try {
       const result = await client
-        .collections("consumer-products")
+        .collections(collectionName)
         .documents()
         .search({
           q: "*",
