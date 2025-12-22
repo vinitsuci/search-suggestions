@@ -178,23 +178,6 @@ Each suggestion has the following fields:
 
 ## Customization
 
-### Adding Manual Suggestions (Optional)
-
-You can add custom marketing or promotional suggestions by editing `src/manualOverrides.json`:
-
-```json
-[
-  {
-    "term": "New Arrivals",
-    "type": "marketing",
-    "boost": 20,
-    "target": "sort:newest"
-  }
-]
-```
-
-Currently, no manual overrides are configured (the file is empty `[]`).
-
 ### Modifying Boost Values
 
 Boost values determine suggestion prominence. Current defaults:
@@ -204,6 +187,82 @@ Boost values determine suggestion prominence. Current defaults:
 - `search_tag`: 8
 - `style`, `style_category`, `occasion_category`: 5
 - `collection`: 4
+
+### Target Selection Logic
+
+Each suggestion type builds its `target` field differently:
+
+#### 1. Category
+
+```
+If cId exists → target: "cId:{cId}"
+Else          → target: "category:{categoryName}"
+```
+
+Example: `cId:1` or `category:Rings`
+
+#### 2. Occasion + Category
+
+```
+occasionPart = If oId exists → "oId:{oId},occasion:{occasionName}"
+               Else          → "occasion:{occasionName}"
+
+categoryPart = If cId exists → "cId:{cId}"
+               Else          → "category:{categoryName}"
+
+target = "{occasionPart},{categoryPart}"
+```
+
+Example: `oId:5,occasion:Engagement,cId:1` or `occasion:Engagement,cId:1`
+
+#### 3. Style + Category
+
+```
+stylePart    = If styleId exists → "styleId:{styleId},style:{styleName}"
+               Else              → "style:{styleName}"
+
+categoryPart = If cId exists     → "cId:{cId}"
+               Else              → "category:{categoryName}"
+
+target = "{stylePart},{categoryPart}"
+```
+
+Example: `styleId:35,style:Solitaire,cId:1` or `style:Solitaire,cId:1`
+
+#### 4. Style
+
+```
+If styleId exists → target: "styleId:{styleId},style:{styleName}"
+Else              → target: "style:{styleName}"
+```
+
+Example: `styleId:35,style:Solitaire` or `style:Solitaire`
+
+#### 5. Collection
+
+```
+If collectionSlug exists → target: "collectionSlug:{slug}"
+Else                     → target: "collection:{collectionName}"
+```
+
+Example: `collectionSlug:heritage` or `collection:Heritage`
+
+#### 6. Search Tag
+
+```
+target: "searchTags:{tagName}"
+```
+
+Example: `searchTags:Diamond`
+
+#### 7. Displayname
+
+```
+If slug exists → target: "slug:{productSlug}"
+Else           → target: undefined
+```
+
+Example: `slug:eternal-love-ring`
 
 ## Scripts
 
